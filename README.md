@@ -57,24 +57,26 @@
 
 - ### Large screens
 
-1. Home Page Wireframe - [view](#) - image link ? NO LINKS YET!!!
+1. Home Page Wireframe ![text](documentation/wireframes/club-home-wf.png)
 
-2. Book App Page Wireframe - [view](#) NO LINKS YET!!!
+2. Book App Page Wireframe ![text](documentation/wireframes/club-book-wf.png)
 
-3. Movie App Page Wireframe - [view](#) NO LINKS YET!!!
+3. Movie App Page Wireframe ![text](documentation/wireframes/club-movie-wf.png)
 
-- ### Medium Screens
+4. Contact Page Wireframe ![text](documentation/wireframes/club-contact-wf.png)
 
-1. Medium View Home Page Wireframe - [view](#) image link? NO LINKS YET!!!
+- ### Medium Screens click to view
 
-2. Medium Book App Page Wireframe - [view](#) NO LINKS YET!!!
+1. Medium View Home Page Wireframe - [view](documentation/wireframes/medium-club-wf.png)
+2. Medium Book App Page Wireframe - [view](documentation/wireframes/medium-club-book-wf.png) 
+3. Medium Movie App Page Wireframe - [view](documentation/wireframes/medium-club-movie-wf.png) 
+4. Medium contact Page wireframe - [view](documentation/wireframes/medium-club-contact-wf.png)
 
-3. Medium Movie App Page Wireframe - [view](#) NO LINKS YET!!!
-
-- ### Small Screens
-1. Small Home Page Wireframe - [view](#) image link? NO LINKS YET!!!
-2. Small Book App Page Wireframe - [view](#) NO LINKS YET!!!
-3. Small Movie App Page Wireframe - [view](#) NO LINKS YET!!!
+- ### Small Screens click to view
+1. Small Home Page Wireframe - [view](documentation/wireframes/club-small-home-wf.png) 
+2. Small Book App Page Wireframe - [view](documentation/wireframes/club-small-book-wf.png)
+3. Small Movie App Page Wireframe - [view](documentation/wireframes/club-small-movie-wf.png)
+4. Small Contact Page Wireframe - [view](documentation/wireframes/club-small-contact-wf.png)
 ## Features
 -   ### Responsive on all devices - [view](#) NO LINKS YET!!!
 -  ### Interactive elements.
