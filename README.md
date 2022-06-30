@@ -45,8 +45,7 @@
 
 ### Typography:
 - ### The fonts use throughout this website are:
-1. 
-2. 
+1. Gentium Book Basic with a fall back of serif
 ### Imagery
 - ###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and move theatre inspiring images.
 - ### The images have come from:
