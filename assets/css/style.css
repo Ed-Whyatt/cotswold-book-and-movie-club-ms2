@@ -2,7 +2,7 @@
 /* styling for body on all pages */
 body {
     background-color: #aab1bd;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Gentium Book Basic', sans-serif;
 }
 
 /* paddings and margins for all pages */
@@ -10,16 +10,86 @@ h1,h2,h3,h4 {
     margin: 0;
 }
 
-/* styling for heading section on all pages */
+/* styling for heading and navigation section on all pages */
 .heading {
     background-color:#45596c;
-    font-weight: 200;
     color:#f3f3f6;
-    
-
     height: 180px;
-
 }
 .heading-title {
-    margin-top: 60px;
+    margin-top: 40px;
 }
+
+/* bootstrap style button */
+.nav-toggle-color {
+    background-color: #45596c;
+}
+.nav-toggle {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.nav-toggle button {
+    background-color: #45596c;
+    border-color: #f3f3f6;
+    border-radius: 5px;
+    font-size: 25px
+}
+.nav-toggle-btn span, .nav-toggle-btn i {
+    color: #f3f3f6;
+}
+
+/* navbar button colours */
+.home-menu-color {
+    background-color:#ecbc4c;
+}
+.movie-menu-color {
+    background-color:#11B4F4;
+}
+.book-menu-color {
+    background-color:#0c279e;
+}
+.contact-menu-color {
+    background-color:#ba356d;
+}
+.events-menu-color {
+    background-color:#5c60b8;
+}
+/* large screen navbar styling */
+#nav-bar {
+    margin: 0;
+}
+#nav-bar li {
+    padding: 0;
+}
+
+.nav-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #f3f3f6;
+    height: 120px;
+}
+
+.nav-item a i {
+    padding-top: 22px;
+    display: block;
+    color: #f3f3f6;
+    font-size: 26px;
+}
+
+.nav-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
