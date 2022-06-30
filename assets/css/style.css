@@ -1,0 +1,23 @@
+/* styling for body on all pages */
+body {
+    background-color: #aab1bd;
+}
+
+/* paddings and margins for all pages */
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+/* styling for heading section on all pages */
+.heading {
+    background-color:#45596c;
+    font-weight: 200;
+    color:#f3f3f6;
+    
+
+    height: 180px;
+
+}
+.heading-title {
+    margin-top: 60px;
+}
