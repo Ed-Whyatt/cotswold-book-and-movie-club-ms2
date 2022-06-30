@@ -106,7 +106,7 @@
 1. ANY MORE !!!?
 ## Testing
 - Validater results
-- JS files
+- JS Hint
 - Ligthhouse
 ## Bugs Fixed
 - 
