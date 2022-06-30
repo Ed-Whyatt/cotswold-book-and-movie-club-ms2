@@ -5,9 +5,15 @@ body {
     font-family: 'Gentium Book Basic', sans-serif;
 }
 
-/* paddings and margins for all pages */
+/* Genral paddings and margins for all pages */
 h1,h2,h3,h4 {
     margin: 0;
+}
+.float-right {
+    float: right;
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* styling for heading and navigation section on all pages */
@@ -19,6 +25,7 @@ h1,h2,h3,h4 {
 .heading-title {
     margin-top: 40px;
 }
+
 
 /* bootstrap style button */
 .nav-toggle-color {
@@ -33,6 +40,9 @@ h1,h2,h3,h4 {
     border-color: #f3f3f6;
     border-radius: 5px;
     font-size: 25px
+}
+.nav-toggle button:hover {
+    background: #0c279e;
 }
 .nav-toggle-btn span, .nav-toggle-btn i {
     color: #f3f3f6;
@@ -92,4 +102,53 @@ h1,h2,h3,h4 {
     font-size: 14px;
     letter-spacing: 2px;
 }
+
+/* footer section stylieing */
+.footer {
+    background-color: #45596c;
+    color: #f3f3f6;
+    
+}
+.about-us {
+    margin-top: 10px;
+}
+.about-us h5 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-size: 20px;
+}
+.about-us h5 p {
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-size: 18px;
+}
+.club-social {
+    margin-top: 10px
+}
+.club-social h5 {
+    margin-right: 10px;
+    font-family: 'Gentium Book Basic', sans-serif;
+}
+
+.club-social-icons li a i {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #f3f3f6;
+    background: #aab1bd;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.club-social-icons li a i:hover {
+    background: #0c279e;
+}
+
+
 
