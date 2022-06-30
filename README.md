@@ -100,6 +100,8 @@
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](#)  (NO LINK!!!!!) during the design process.
+1. [Hover.css:](http://ianlunn.github.io/Hover/)
+    - Hover.css is used for the hover effects on the navgation buttons.
 1. [Am I Responsive Design:](http://ami.responsivedesign.is/)
     - Am I Responsive Design was used for the responsive image in Readme.
 1. ANY MORE !!!?
