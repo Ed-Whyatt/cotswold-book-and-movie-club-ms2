@@ -29,7 +29,6 @@ h1,h2,h3,h4 {
     background-color: #f3f3f6;
 }
 
-
 /* bootstrap style button */
 .nav-toggle-color {
     background-color: #45596c;
@@ -110,14 +109,28 @@ h1,h2,h3,h4 {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .about-us-main p {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
     margin-bottom: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.book-apple-image {
+    background: url('/assets/images/book-apple-image.png');
+    /* background-color: #f3f3f6; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    min-height: 500px;
 }
 /* footer section stylieing */
 .footer {
@@ -164,6 +177,16 @@ h1,h2,h3,h4 {
 
 .club-social-icons li a i:hover {
     background: #f3f3f6;
+}
+@media(max-width: 766px) {
+    .book-apple-image {
+        min-height: 300px;
+    }
+}
+@media(max-width: 500px) {
+    .book-apple-image {
+        min-height: 200px;
+    }
 }
 
 
