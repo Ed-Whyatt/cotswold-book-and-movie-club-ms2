@@ -16,7 +16,7 @@ h1,h2,h3,h4 {
     text-transform: uppercase;
 }
 
-/* styling for heading and navigation section on all pages */
+/* General styling for heading and navigation section on all pages */
 .heading {
     background-color:#45596c;
     color:#f3f3f6;
@@ -24,6 +24,9 @@ h1,h2,h3,h4 {
 }
 .heading-title {
     margin-top: 40px;
+}
+.general-section-color{
+    background-color: #f3f3f6;
 }
 
 
@@ -102,7 +105,20 @@ h1,h2,h3,h4 {
     font-size: 14px;
     letter-spacing: 2px;
 }
-
+/* main about us section on nome page index.html and apple image section */
+.about-us-main h3 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #45596c;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us-main p {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #45596c;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
 /* footer section stylieing */
 .footer {
     background-color: #45596c;
@@ -135,10 +151,10 @@ h1,h2,h3,h4 {
     margin-right: 10px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 24px;
     line-height: 7px;
     text-align: center;
-    color: #f3f3f6;
+    color: #45596c;
     background: #aab1bd;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -147,7 +163,7 @@ h1,h2,h3,h4 {
 }
 
 .club-social-icons li a i:hover {
-    background: #0c279e;
+    background: #f3f3f6;
 }
 
 
