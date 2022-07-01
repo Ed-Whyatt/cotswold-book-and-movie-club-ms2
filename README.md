@@ -49,7 +49,7 @@
 ### Imagery
 - ###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and move theatre inspiring images.
 - ### The images have come from:
-1. Main page Hero image [image website](#) [image link](#) No links yet
+1. Main page Hero image of a [green apple on a book](/assets/images/book-apple-image.png) from [https://www.stockvault.net/](https://www.stockvault.net/photo/128129/book-and-apple) 
 2. Book app image [image website](#) [image link](#) No links yet
 3. Movie app image [image website](#) [image link](#) no links yet
 ### Wireframes
@@ -120,6 +120,8 @@
 ## API Application Programming Interfaces used:
 - 
 ## GitHub Projects
+-
+## Changes made after UX, Design and Wireframes 
 - 
 ## Credits
 - 
