@@ -193,6 +193,19 @@ tbody tr td {
     width: 60%;
     height: 80%;
 }
+/* book search page */
+.search-book-image {
+    background: url('/assets/images/search-book-image.png');
+    background-color: #f3f3f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+}
 /* book and movie page search box */
 .search-box h1 {
     font-family: 'Gentium Book Basic', sans-serif;
@@ -200,7 +213,6 @@ tbody tr td {
     padding-top: 40px;
 
 }
-
 .form-box {
     text-align: center;
     margin-top: 20px;
