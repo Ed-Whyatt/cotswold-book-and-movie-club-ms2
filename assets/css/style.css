@@ -52,10 +52,10 @@ h1,h2,h3,h4 {
 
 /* navbar button colours */
 .home-menu-color {
-    background-color:#ecbc4c;
+    background-color: #0f5132;
 }
 .movie-menu-color {
-    background-color:#11B4F4;
+    background-color:#d03507;
 }
 .book-menu-color {
     background-color:#0c279e;
@@ -157,7 +157,7 @@ h1,h2,h3,h4 {
     font-weight: 800;
 }
 .events-location p {
-    margin-top: 15px;
+    margin-top: 15x;
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
 }
@@ -173,7 +173,42 @@ tbody tr td {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
 }
+/* book movie page */
+.search-movie-image {
+    background: url('/assets/images/search-movie-image.png');
+    background-color: #f3f3f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+}
+.movie-search-box {
+    background-color: #d03507;
+    margin-left: 20%;
+    margin-top: 80px;
+    width: 60%;
+    height: 80%;
+}
+/* book and movie page search box */
+.search-box h1 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    padding-top: 40px;
 
+}
+
+.form-box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-box input {
+    width: 90%;
+}
 
 /* footer section */
 .footer {
@@ -217,6 +252,8 @@ tbody tr td {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+
 
 .club-social-icons li a i:hover {
     background: #f3f3f6;
