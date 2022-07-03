@@ -149,6 +149,18 @@ h1,h2,h3,h4 {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
 }
+.events-location h4 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #45596c;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.events-location p {
+    margin-top: 15px;
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #45596c;
+}
 thead tr th {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
