@@ -206,6 +206,13 @@ tbody tr td {
     align-items: center;
     height: 100vh;
 }
+.book-search-box {
+    background-color: #0c279e;
+    margin-left: 20%;
+    margin-top: 80px;
+    width: 60%;
+    height: 80%;
+}
 /* book and movie page search box */
 .search-box h1 {
     font-family: 'Gentium Book Basic', sans-serif;
