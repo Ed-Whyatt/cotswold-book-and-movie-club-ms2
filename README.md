@@ -110,7 +110,15 @@
 - JS Hint
 - Ligthhouse
 ## Bugs Fixed
-- 
+- Color contrast
+### The colors chosen for the Home and Search for Movie navgation button where of to low contract and have been changed.
+- Before fix:
+#### ![text](/documentation/bug-fix-images/home-color-before.png) ![text](/documentation/bug-fix-images/movie-before.png)
+- After fix:
+#### ![text](/documentation/bug-fix-images/home-after.png) ![text](/documentation/bug-fix-images/movie-after.png)
+- Navgation colors after fix:
+#### ![text](/documentation/bug-fix-images/nav-colors-after.png)
+
 ## Known bugs
 -  
 ## Testing User Stories from User Experience (UX) Section
