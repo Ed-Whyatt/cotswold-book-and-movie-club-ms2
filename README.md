@@ -36,16 +36,16 @@
 
 - ### [Color Mind](http://colormind.io/) : Colormind has been used to aid the desision the colour sceme for the project.
 
-- ### ![Text](#) - color scheme view No link yet!
-
 ### The main colours used in this website are:
-1. 
-2. 
-3. 
+- #### Navgation buttons
+#### The five navgation buttons Home, Movie Search, Book Search, Contact Us and events: 
+### ![Text](/documentation/color-sceme-images/buttons.png)
+- #### The main colors used for text and backgrouds:
+### ![Text](/documentation/color-sceme-images/text-background-color.png)
 
 ### Typography:
 - ### The fonts use throughout this website are:
-1. Gentium Book Basic with a fall back of serif
+1. Gentium Book Basic with a fall back of serif.
 ### Imagery
 - ###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and move theatre inspiring images.
 - ### The images have come from:
