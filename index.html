@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <div class="row no-gutters">
             <div class="col-sm-2 d-md-none nav-toggle-color">
                 <div class="nav-toggle">
@@ -48,7 +48,7 @@
                                     class="fa fa-envelope" aria-hidden="true"></i><span>Contact Us</span></a>
                         </li>
                         <li class="col events-menu-color nav-item hvr-curl-top-left">
-                            <a href="#" class="hvr-bounce-in" aria-label="Go to events section"><i
+                            <a href="#events" class="hvr-bounce-in" aria-label="Go to events section"><i
                                     class="fa fa-calendar" aria-hidden="true"></i><span>Events</span></a>
                         </li>
                     </ul>
@@ -75,7 +75,7 @@
         </div>
     </section>
     <section class="container-fluid">
-        <div class="row events-main">
+        <div id="events" class="row events-main">
             <div class="col-md-8 bg-color-groups">
                 <div class="row">
                     <div class="col">
@@ -83,46 +83,49 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col col-lg-6">
+                    <div class="col col-md-6">
                         <div class="events-box">
                             <h4 class="events-heading uppercase"><i class="fa fa-book" aria-hidden="true"></i> Book signing</h4>
-                            <table class="table table-borderless">
+                            <div class="row">
+                            <table class="table table-borderless col">
                                 <thead>
                                     <tr>
                                         <th scope="col">Date</th>
                                         <th scope="col">Time</th>
                                         <th scope="col">Book</th>
-                                        <th scope="col">Location</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="row">2/8/22</td>
                                         <td>13:00 - 15:00</td>
-                                        <td>Upgrade by Blake Crouch</td>
-                                        <td>Waterstones Cirencester,<br>
-                                            14 cricklade street,<br>
-                                            GL7 1LL
-                                        </td>
+                                        <td>Upgrade by Blake Crouch</td>                      
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="col events-location">
+                                <h4>Location</h4>
+                                <p>Waterstones Cirencester,<br>
+                                    14 cricklade street,<br>
+                                    GL7 1LL</p>
+                            </div>
+                            </div>
                         </div>
                         <div class="events-description events-box">
                             <h4>Decription</h4>
                             <p>Come join us at cirencester Waterstones for a book signing by Blake Crouch. This is his latest book and if you like your Science fiction then it's right up your street. </p>
                         </div>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col col-md-6">
                         <div class="events-box">
                             <h4 class="events-heading uppercase"><i class="fa fa-book" aria-hidden="true"></i> Book Signing</h4>
-                            <table class="table table-borderless">
+                            <div class="row">
+                            <table class="col table table-borderless">
                                 <thead>
                                     <tr>
                                         <th scope="col">Date</th>
                                         <th scope="col">Time</th>
                                         <th scope="col">Book</th>
-                                        <th scope="col">Location</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -130,29 +133,32 @@
                                         <td class="row">3/9/22</td>
                                         <td>14:00 - 16:00</td>
                                         <td>A Prayer for the Crown-Shy by Becky chambers</td>
-                                        <td>Waterstones Cheltenham,<br>
-                                        33-41 The Promenade,<br>
-                                        GL5 1LE
-                                    </td>
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="col events-location">
+                                <h4>Location</h4>
+                                <p>Waterstones Cheltenham,<br>
+                                    33-41 The Promenade,<br>
+                                    GL5 1LE</p>
+                            </div>
+                            </div>
                         </div>
                         <div class="events-description events-box">
                             <h4>Decription</h4>
-                            <p>Come join us for a book signing in cheltenham This is the second book of the Monk and Robot series. The first book A Psalm for the Wild-Built has had some really good reviews and its a muct read if you like science fiction. </p>
+                            <p>Come join us for a book signing in cheltenham This is the second book of the Monk and Robot series. The first book A Psalm for the Wild-Built has had some really good reviews and its a must read if you like science fiction. </p>
                         </div>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col col-md-6">
                         <div class="events-box">
                             <h4 class="events-heading uppercase"><i class="fa fa-ticket" aria-hidden="true"></i> Movie Viewing <br>Followed by Food</h4>
-                            <table class="table table-borderless">
+                            <div class="row">
+                            <table class="col table table-borderless">
                                 <thead>
                                     <tr>
                                         <th scope="col">Date</th>
                                         <th scope="col">Time</th>
                                         <th scope="col">Movie</th>
-                                        <th scope="col">Location</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -160,30 +166,34 @@
                                         <td class="row">16/9/22</td>
                                         <td>17:10</td>
                                         <td>Jurassic World:<br>Dominion</td>
-                                        <td>Cineworld Cheltenham,<br>
-                                            The Brewery,<br>Oxford Passage,<br>
-                                            St Margaret's Road<br>
-                                            Cheltenham<br>
-                                            GL50 4EF</td>
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="col events-location">
+                                <h4>Location</h4>
+                                <p>Cineworld Cheltenham,<br>
+                                    The Brewery,<br>Oxford Passage,<br>
+                                    St Margaret's Road<br>
+                                    Cheltenham<br>
+                                    GL50 4EF</p>
+                            </div>
+                         </div>
                         </div>
                         <div class="events-description events-box">
                             <h4>Decription</h4>
                             <p>We will be meeting outside the Cinema at 16:50. There is parcking near by at the The Brewery Quarter, Monson Ave, Cheltenham GL50 4EJ. We will be going for food after at Smokey Joe's Diner, Bar and Venue, 16 Bennington St, Cheltenham GL50 4ED. Smokey Joe's is with in walking distance of the Cinema.</p>
                         </div>
                     </div>
-                    <div class="col col-lg-6">
+                    <div class="col col-md-6">
                         <div class="events-box">
                             <h4 class="events-heading uppercase"><i class="fa fa-ticket" aria-hidden="true"></i> Movie Viewing <br>Followed by Food</h4>
-                            <table class="table table-borderless">
+                            <div class="row">
+                            <table class="col table table-borderless">
                                 <thead>
                                     <tr>
                                         <th scope="col">Date</th>
                                         <th scope="col">Time</th>
                                         <th scope="col">Movie</th>
-                                        <th scope="col">Location</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -191,14 +201,19 @@
                                         <td class="row">10/11/22</th>
                                         <td>18:30</td>
                                         <td>Top Gun: Maverick</td>
-                                        <td>Cineworld Cheltenham,<br>
-                                            The Brewery,<br>Oxford Passage,<br>
-                                            St Margaret's Road<br>
-                                            Cheltenham<br>
-                                            GL50 4EF</td></td>
+                                      
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="col events-location">
+                                <h4>Location</h4>
+                                <p>Cineworld Cheltenham,<br>
+                                    The Brewery,<br>Oxford Passage,<br>
+                                    St Margaret's Road<br>
+                                    Cheltenham<br>
+                                    GL50 4EF</p>
+                            </div>
+                            </div>
                         </div>
                         <div class="events-description events-box">
                             <h4>Decription</h4>
