@@ -110,7 +110,7 @@
 - JS Hint
 - Ligthhouse
 ## Bugs Fixed
-- Color contrast
+1. Color contrast
 ### The colors chosen for the Home and Search for Movie navgation button where of to low contract and have been changed.
 - Before fix:
 #### ![text](/documentation/bug-fix-images/home-color-before.png) ![text](/documentation/bug-fix-images/movie-before.png)
@@ -118,6 +118,11 @@
 #### ![text](/documentation/bug-fix-images/home-after.png) ![text](/documentation/bug-fix-images/movie-after.png)
 - Navgation colors after fix:
 #### ![text](/documentation/bug-fix-images/nav-colors-after.png)
+2. The locations in the up comming events section where flowing out of the container when viewed on an extra small screen on all events. I put the locations section in its own collum to prevent this.
+- Before fix
+#### ![text](/documentation/bug-fix-images/locations-code-before.png) ####![text](/documentation/bug-fix-images/locations-before-fix.png)
+- After fix 
+#### ![text](/documentation/bug-fix-images/locations-code-after.png) ####![text](/documentation/bug-fix-images/locations-after-fix.png)
 
 ## Known bugs
 -  
