@@ -1,0 +1,22 @@
+{
+  "name": "cotswold-book-and-movie-club-ms2",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Cotswold’s Book & Movie Club</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2/issues"
+  },
+  "homepage": "https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
