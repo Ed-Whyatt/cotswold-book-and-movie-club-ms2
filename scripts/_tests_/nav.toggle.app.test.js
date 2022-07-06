@@ -11,3 +11,12 @@
     document.write(fileContents);
     document.close();
 });
+// Dom test to check the the elements and function
+describe("DOM tests", () => {
+    // test the click function works
+    test("Expects content to change", () => {
+        buttonClick()
+        expect(document.getElementById("nav-list").innerHTML).toEqual("You Clicked");
+    });
+   
+});
