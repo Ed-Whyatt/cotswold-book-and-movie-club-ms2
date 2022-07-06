@@ -16,7 +16,11 @@ describe("DOM tests", () => {
     // test the click function works
     test("Expects content to change", () => {
         buttonClick()
-        expect(document.getElementById("nav-list").innerHTML).toEqual("You Clicked");
+        expect(document.getElementById("nav-list")
+            .innerHTML).toEqual("You Clicked");
     });
-   
+    // test the number of div elements on page
+    test("div should exist", () => {
+        expect(document.getElementsByTagName("div").length).toBe(2);
+    })
 });
