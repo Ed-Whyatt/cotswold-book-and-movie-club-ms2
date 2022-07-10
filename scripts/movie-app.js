@@ -7,13 +7,13 @@ function fetchMovieInformation() {
     let search = $("#movie").val();
     $("#movie-data").html("");
 
-    // if the search box is empty display message
+    // if the search box is empty display message under search bar
     if (!search) {
         $("#loader").html(`<h2 class="search-message text-center">
                                  Pease Search For A Movie!!</h2>`);
         return;
     }
-    // loader image while searching for a movie
+    // loader image while searching for a movie shown under search bar
     $("#loader").html(
             `<div id="book-loader">
                             <img src="assets/loader-image/loader.gif" alt="loading..." />
@@ -32,8 +32,18 @@ function fetchMovieInformation() {
                                     apikey: apiKey(),
                                     i: value.imdbID
                                 }, function (movieData) {
-                                    (console.log(movieData));
-                                },
+                                    (MovieInformationHtTML(movieData));
+                                    // if an error occurs then show error response under search bar
+                                },function error(errorResponse) {
+                                    if (errorResponse.status === 404) {
+                                        $("#loader").html( 
+                                            ` <h2>No Movie Found ${search}</h2> `
+                                        );
+                                    } else { 
+                                        console.log(errorResponse);
+                                        $(` <h2>Error: ${errorResponse.responseJSON.message}</h2> `)
+                                    }
+                                }
                             )
                         }
                     })
