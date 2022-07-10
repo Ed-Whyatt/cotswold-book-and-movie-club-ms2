@@ -173,7 +173,7 @@ tbody tr td {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
 }
-/* book movie page */
+/* movie seearch page */
 .search-movie-image {
     background: url('/assets/images/search-movie-image.png');
     background-color: #f3f3f6;
@@ -227,6 +227,45 @@ tbody tr td {
 }
 .form-box input {
     width: 90%;
+}
+/* contact us page */
+.form-section {
+    background-color: #fafafa;
+}
+.form-container {
+    background-color: #ba356d;
+    margin-left: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 60%;
+    height: 80%;
+}
+.form-container h3 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    text-align: center;
+    color: #f3f3f6;
+    padding-top: 40px;
+}
+.form-container h4 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    text-align: center;
+    color: #f3f3f6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form-center {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #0f5132;
+    color: #fafafa;
+}
+button[type="submit"]:hover {
+    background-color: #0c279e;
 }
 
 /* footer section */
@@ -285,6 +324,20 @@ tbody tr td {
 @media(max-width: 500px) {
     .book-apple-image {
         min-height: 200px;
+    }
+    .form-container {
+        background-color: #ba356d;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media(min-width: 992px) {
+ 
+    .form-center {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
 
