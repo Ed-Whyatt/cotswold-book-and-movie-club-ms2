@@ -106,6 +106,20 @@
     - Am I Responsive Design was used for the responsive image in Readme.
 1. ANY MORE !!!?
 ## Testing
+- ### Jest: [View website](https://jestjs.io/)
+1. ### Initialising Jest
+#### In terminal in GitPod.io workspace type:
+    npm init
+#### Click enter untill you get to test command and type jest:
+    test command: jest
+#### Then keep clicking enter untill the end when is display yes click and  enter to install jest.
+2. ### Installing Jest
+#### In the terminal in GitPod.io workspace type:
+     npm install ---save-dev jest@26.6.3
+#### Click enter and it will install. For a more detailed exapmle go to [Jest: Documentation](https://jestjs.io/docs/getting-started).
+3. ### Using Jest
+### I will be useing Jest to test and build the navgation app only this is a key function in the use of the website in a mobile view. I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+
 - Validater results
 - JS Hint
 - Ligthhouse
