@@ -11,4 +11,9 @@ function initMap() {
       content: "",
       disableAutoPan: true,
     });
+
+     // Create an array of alphabetical characters used to label the markers.
+    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 }
+
