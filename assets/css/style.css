@@ -121,7 +121,7 @@ h1,h2,h3,h4 {
 }
 
 .book-apple-image {
-    background: url('/assets/images/book-apple-image.png');
+    background: url('../images/book-apple-image.png');
     background-color: #f3f3f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -199,7 +199,7 @@ div#map {
 
 /* movie seearch page */
 .search-movie-image {
-    background: url('/assets/images/search-movie-image.png');
+    background: url('../images/search-movie-image.png');
     background-color: #f3f3f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -213,6 +213,44 @@ div#map {
 .movie-search-box {
     background-color: #d03507;
     
+}
+
+.toggle-main {
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.toggle-item {
+    height: 80px;
+    text-align: center;
+    padding: 0;
+}
+
+.toggle-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #f3f3f6;
+    height: 120px;
+}
+
+.toggle-item a i {
+    padding-top: 22px;
+    display: block;
+    color: #f3f3f6;
+    font-size: 18px;
+}
+
+.toggle-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 
@@ -261,7 +299,7 @@ div#map {
 
 /* book search page */
 .search-book-image {
-    background: url('/assets/images/search-book-image.png');
+    background: url('../images/search-book-image.png');
     background-color: #f3f3f6;
     background-repeat: no-repeat;
     background-position: center center;
