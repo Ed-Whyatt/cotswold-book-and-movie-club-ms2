@@ -18,24 +18,7 @@ function initMap() {
     // Create an array of alphabetical characters used to label the markers.
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    // create array of locations that will be the markers shown on the map.
-    const locations = [
-        // Cirencester Waterstones GL7 1LL
-        {
-            lat: 51.71627221147043,
-            lng: -1.968028579311726
-        },
-        //Waterstones Cheltenham GL5 1LE
-        {
-            lat: 51.90014197225292,
-            lng: -2.076425446925063
-        },
-        //Cineworld Cheltenham GL50 4EF
-        {
-            lat: 51.903143544417084,
-            lng: -2.0761462309713155
-        },
-    ];
+   
 
     // Add some markers to the map.
     const markers = locations.map((position, i) => {
@@ -52,5 +35,28 @@ function initMap() {
       });
       return marker;
     });
-const markerCluster = new markerClusterer.MarkerClusterer({ map, markers });
+
+    // Add a marker clusterer to manage the markers.
+    new markerClusterer.MarkerClusterer({ map, markers });
 }
+
+ // create array of locations that will be the markers shown on the map.
+ const locations = [
+    // Cirencester Waterstones GL7 1LL
+    {
+        lat: 51.71627221147043,
+        lng: -1.968028579311726
+    },
+    //Waterstones Cheltenham GL5 1LE
+    {
+        lat: 51.90014197225292,
+        lng: -2.076425446925063
+    },
+    //Cineworld Cheltenham GL50 4EF
+    {
+        lat: 51.903143544417084,
+        lng: -2.0761462309713155
+    },
+];
+
+window.initMap = initMap;
