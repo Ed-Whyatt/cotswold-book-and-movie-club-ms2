@@ -61,11 +61,14 @@
             <div class="col">
                 <div class="movie-search-box search-box">
                     <h1 class="text-center">Search for a movie here</h1>
-                    <form class="form-box" action="search">
-                        <input type="text">
+                    <form class="form-box">
+                        <input class="form-control" type="text" id="movie" value="search movie" oninput="fetchMovieInformation()">
+                        <label for="movie"></label>
+                        <div id="loader"></div>
                     </form>
                 </div>
             </div>
+            <div id="movie-data"></div>
         </div>
     </section>
     <footer class="container-fluid">
@@ -106,6 +109,7 @@
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/movie-app-api.js"></script>
     <script type="text/javascript" src="scripts/movie-app.js"></script>
 </body>
 
