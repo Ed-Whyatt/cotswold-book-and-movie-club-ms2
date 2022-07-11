@@ -1,4 +1,5 @@
 /* jshint esversion: 11, jquery: true */
+
 // display movieData in to a html document below the search bar
 function movieInformationHTML(movieData) {
     if (movieData.length === 0) {
@@ -23,26 +24,32 @@ function movieInformationHTML(movieData) {
             $("#movie-data").html(displayResults)
             console.log(displayResults)
     }
-}
+};
 
 // function to fetch the movie information from the search box in the movie search page
-function fetchMovieInformation() {s
+function fetchMovieInformation() {
+
     // define contence of the serach value
+
     let search = $("#movie").val();
     $("#loader").html("");
+
 // if the search box is empty display message under search bar
     if (!search) {
         $("#loader").html(`<h2 class="search-message text-center">
         Pease Search For A Movie!!</h2>`);
         return;
     }
+
      // loader image while searching for a movie shown under search bar
     $("#loader").html(
             `<div id="book-loader">
                     <img src="assets/loader-image/loader.gif" alt="loading..." />
                     </div>`
+
         ),// gets movie data informaton from Omdbapi.com
         $.getJSON("https://www.omdbapi.com/?", {
+
             // apikey function genrated using https://obfuscator.io/
             apikey: apiKey(),
             s: search
@@ -51,14 +58,17 @@ function fetchMovieInformation() {s
             if (data.Search !== undefined) {
                 $.each(data.Search, function (index, value) {
                     if (index < 2) {
+
                         // search for imdb information from Omdbapi.com
                         $.getJSON("https://www.omdbapi.com/?", {
                             apikey: apiKey(),
                                 i: value.imdbID
                             },
                             function (movieData) {
+
                                 // pass movie data to MovieInformationHTML function
                                 (movieInformationHTML(movieData));
+                                
                             },// if an error occurs then show error response under search bar
                             function error(errorResponse) {
                                 if (errorResponse.status === 404) {
