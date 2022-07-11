@@ -12,7 +12,7 @@ function movieInformationHTML(movieData) {
                     <div class="movie-display-box">
                     <h2 class="text-center">${movieData.Title}</h2>
                     <h3 class="text-center movie-display-plot">Plot: ${movieData.Plot}</h3>
-                    <img src="${movieData.Poster}" alt="movie poster" placeholder="#">
+                    <img src="${movieData.Poster}" class="img-fluid rounded mx-auto d-block" alt="movie poster" placeholder="#">
                     <h3 class="text-center">IMDB Rating: ${movieData.imdbRating}</h3>
                     <h3 class="text-center">Director: ${movieData.Director}</h3>
                     <h3 class="text-center">Genre: ${movieData.Genre}</h3>
@@ -23,6 +23,7 @@ function movieInformationHTML(movieData) {
                     `
             $("#movie-data").html(displayResults)
             console.log(displayResults)
+            $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`)
     }
 };
 
