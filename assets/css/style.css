@@ -271,7 +271,7 @@ div#map {
 }
 
 .movie-display-box img {
-    margin-left: 25%;
+    align-self: center;
 }
 
 .movie-display-box h3 {
@@ -432,6 +432,9 @@ button[type="submit"]:hover {
         width: 90%;
         margin-left: 5%;
     }
+    .movie-display-container {
+        margin-left: 10%;
+        width: 80%;
 }
 @media(max-width: 500px) {
     .book-apple-image {
@@ -446,6 +449,9 @@ button[type="submit"]:hover {
         width: 100%;
         margin-left: 0%;
     }
+    .movie-display-container {
+        width: 100%;
+        margin-left: 0;
 }
 @media(min-width: 992px) {
  
