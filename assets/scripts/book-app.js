@@ -27,7 +27,19 @@ function fetchBookInformation(event) {
             function (bookData) {
                 // (displayBookResults(bookData))
                 console.log(bookData)
-            },
+            },// if an error occurs then show error response under search bar
+            function error(errorResponse) {
+                if (errorResponse.status === 404) {
+                    $("#loader").html(
+                        `<h2 class="search-message text-center">No Book found ${search}</h2>`
+                    );
+                } else {
+                    console.log(errorResponse);
+                    $("#loader").html(
+                        `<h2 class"search-message text-center">Error: ${errorResponse.reponseJSON.message}</h2>`
+                    )
+                }
+            }
         )
 };
 // function to get the html document ready for the app to start.
