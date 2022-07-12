@@ -1,5 +1,10 @@
 /* jshint esversion: 11, jquery: true */
 
+// display bookData in to a html document below the search bar.
+function displayBookResults(bookData) {
+    console.log(bookData);
+}
+
 // Fetch the movie search information in the book search bar and search the api for the book.
 function fetchBookInformation(event) {
 
@@ -22,12 +27,18 @@ function fetchBookInformation(event) {
             `<div id="loader">
                     <img src="assets/loader-image/loader.gif" alt="loading..." />
                     </div>`
-        ),// Gets movie information from google books url.
+        ),
+        
+        // Gets movie information from google books url.
         $.getJSON(bookUrl + search,
             function (bookData) {
-                // (displayBookResults(bookData))
+                
+                // Pass book data to display book function
+                (displayBookResults(bookData))
                 console.log(bookData)
-            },// if an error occurs then show error response under search bar
+            },
+            
+            // If an error occurs then show error response under search bar
             function error(errorResponse) {
                 if (errorResponse.status === 404) {
                     $("#loader").html(
@@ -42,5 +53,6 @@ function fetchBookInformation(event) {
             }
         )
 };
+
 // function to get the html document ready for the app to start.
 $(document).ready(fetchBookInformation);
