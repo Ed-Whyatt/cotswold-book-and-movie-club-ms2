@@ -3,6 +3,23 @@
 // display bookData in to a html document below the search bar.
 function displayBookResults(bookData) {
     console.log(bookData);
+
+    // Placeholder image for when book search has no image
+    let placeholder = "../images/book-search-placeholder.jpg"
+
+    if (bookData.length === 0) {
+        $("#loader").html(`<div><h2> No Books!</h2></div>`)
+    } else {
+        // Loop through book results and display six at a time
+        for (var i = 0; i < 6; i++ ) {
+            item = response.items[i];
+            bookImage = item.volumeInfo.imageLinks ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
+            title = item.volumeInfo.title;
+            author = item.volumeInfo.authors;
+            publisher = item.volumeInfo.publisher;
+            bookLink = item.volumeInfo.previewLink;
+        }
+    }
 }
 
 // Fetch the movie search information in the book search bar and search the api for the book.
