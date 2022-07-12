@@ -253,13 +253,11 @@ div#map {
 /* movie search results container */
 .movie-display-container {
     background-color: #d03507;
-    margin-left: 25%;
     margin-top: 60px;
-    margin-bottom: 60px;
-    width: 50%;
+    margin-bottom: 20px;
+    min-height: 300px;
     
 }
-
 
 .movie-display-plot {
     padding-left: 50px;
@@ -302,6 +300,43 @@ div#map {
     margin-left: 15px;
 }
 
+/* Book display box */
+
+.book-display-box h2 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    padding-top: 10px;
+}
+
+.book-display-box img {
+    align-self: center;
+}
+
+.book-display-box h4 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    
+}
+
+.book-display-box h3 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+
+.book-display-box p {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    margin-left: 10px;
+}
+
 /* book and movie page search box */
 .search-box {
     margin-left: 20%;
@@ -325,42 +360,42 @@ div#map {
     width: 80%;
 }
 
-/* Book and movie display box */
+/* Movie display box */
 
-.display-box h2 {
+.movie-info {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.movie-display-box h2 {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #f3f3f6;
-    padding-top: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.display-box img {
-    align-self: center;
+.movie-display-box h4 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 20px;
+    margin-bottom: 2px;
 }
 
-.display-box h4 {
+.movie-display-box h3 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.movie-display-box p {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #f3f3f6;
     font-size: 16px;
-    padding-top: 2px;
-    padding-bottom: 40px;
-    margin-left: 10px;
-    
-}
-
-.display-box h3 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 16px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-left: 10px;
-    
-}
-
-.display-box p {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-right: 20%;
 }
 
 /* contact us page form container and button */
@@ -473,6 +508,7 @@ button[type="submit"]:hover {
     .movie-display-container {
         margin-left: 10%;
         width: 80%;
+    }
 }
 @media(max-width: 500px) {
     .book-apple-image {
@@ -501,6 +537,3 @@ button[type="submit"]:hover {
         max-width: 50%;
     }
 }
-
-
-
