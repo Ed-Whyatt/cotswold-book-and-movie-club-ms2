@@ -10,15 +10,47 @@ function movieInformationHTML(movieData) {
         title = movieData.Title;
         poster = movieData.Poster;
         plot = movieData.Plot;
-        imdbRating = movieData.imdbRating;
+        imdb = movieData.imdbRating;
         director = movieData.Director;
         genre = movieData.Genre;
         viewingRating = movieData.Rated;
         resleased = movieData.Released;
 
         // Append results to a div to display results and pass to dispplay movie.
-        $("#movie-data").append(`<div class="col-lg-6">` + displayMovie(title, poster, plot, imdbRating, director, genre, viewingRating, resleased ) + `</div>`);
+        $("#movie-data").append(`<div class="col-md-6 col-lg-4">` + displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased ) + `</div>`);
+
+        // Display message when a Movie is Found!!
+        $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`);
     }
+};
+
+// Display html results inside apended div
+function displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased) {
+    let results = "";
+    results += ` 
+<div class="movie-display-container">
+    <div class="movie-display-box">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center movie-title">${title}</h2>
+            </div>
+        </div>
+            <div class="col">
+                <img src="${poster}" class="rounded mx-auto d-block movie-image" alt="${title}" placeholder="#">
+            </div>
+                <div class="movie-info">
+                    <div class="col">
+                        <h3>Director: ${director}</h3>
+                        <h3>Genre: ${genre}</h3>
+                        <h3>IMDB Rating: ${imdb}</h3>
+                        <h3>Viewing Rating: ${viewingRating}</h3>
+                        <h3>Date Released: ${resleased}</h3>
+                        <p>Plot: ${plot}</p>
+                    </div>
+                </div>
+    </div>
+</div> `
+    return results;
 };
 
 // function to fetch the movie information from the search box in the movie search page
