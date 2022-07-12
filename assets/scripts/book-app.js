@@ -20,11 +20,14 @@ function displayBookResults(response) {
             description = item.volumeInfo.description;
             bookLink = item.volumeInfo.previewLink;
             console.log(bookImage, title, author, publisher, bookLink)
+
             // Append results to a div to display results and pass to display book
             $("#book-data").append(`<div class="col-lg-6">` +
                 displayBook(bookImage, title, author, publisher, description, bookLink) +
                 `</div>`);
-
+            
+                // Display message when a Movie is Found!!
+            $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`);
         }
     }
 };
