@@ -190,11 +190,7 @@ div#map {
     padding-top: 20px;
 }
 #book-loader {
-    padding-top: 30px;
-    display: block;
-    height: 80px;
-    width: 100px;
-    margin: 0 auto;
+    padding-top: 30px;    
 }
 
 /* movie seearch page */
@@ -254,7 +250,7 @@ div#map {
 }
 
 
-/* movie searcdh results container */
+/* movie search results container */
 .movie-display-container {
     background-color: #d03507;
     margin-left: 25%;
@@ -264,33 +260,6 @@ div#map {
     
 }
 
-.movie-display-box h2 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    padding-top: 10px;
-}
-
-.movie-display-box img {
-    align-self: center;
-}
-
-.movie-display-box h3 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 16px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    
-}
-
-.movie-display-box h4 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 16px;
-    padding-top: 2px;
-    padding-bottom: 40px;
-    
-}
 
 .movie-display-plot {
     padding-left: 50px;
@@ -308,11 +277,31 @@ div#map {
     -o-background-size: cover;
     background-size: cover;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .book-search-box {
     background-color: #0c279e;
 }
+
+/* book search results box */
+
+.book-display-container {
+    background-color: #0c279e;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+
+.movie-title {
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.book-image {
+    margin-left: 15px;
+}
+
 /* book and movie page search box */
 .search-box {
     margin-left: 20%;
@@ -335,6 +324,45 @@ div#map {
     display: inline;
     width: 80%;
 }
+
+/* Book and movie display box */
+
+.display-box h2 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    padding-top: 10px;
+}
+
+.display-box img {
+    align-self: center;
+}
+
+.display-box h4 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    
+}
+
+.display-box h3 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+    
+}
+
+.display-box p {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    margin-left: 10px;
+}
+
 /* contact us page form container and button */
 .form-section {
     background-color: #fafafa;
@@ -366,6 +394,16 @@ div#map {
     max-width: 70%;
 }
 button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #0f5132;
+    color: #fafafa;
+}
+button[type="submit"]:hover {
+    background-color: #0c279e;
+}
+
+button[type="reset"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #0f5132;
@@ -452,6 +490,7 @@ button[type="submit"]:hover {
     .movie-display-container {
         width: 100%;
         margin-left: 0;
+    }
 }
 @media(min-width: 992px) {
  
