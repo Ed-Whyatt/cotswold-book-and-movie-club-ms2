@@ -1,31 +1,70 @@
 /* jshint esversion: 11, jquery: true */
 
 // display bookData in to a html document below the search bar.
-function displayBookResults(bookData) {
-    console.log(bookData);
+function displayBookResults(response) {
+    console.log(response);
 
     // Placeholder image for when book search has no image
-    let placeholder = "../images/book-search-placeholder.jpg"
+    let placeHolder = "../images/book-search-placeholder.jpg"
 
-    if (bookData.length === 0) {
+    if (response.length === 0) {
         $("#loader").html(`<div><h2> No Books!</h2></div>`)
     } else {
-        // Loop through book results and display six at a time
-        for (var i = 0; i < 6; i++ ) {
+        // Loop through book results and display in div
+        for (var i = 0; i < 2; i++) {
             item = response.items[i];
             bookImage = item.volumeInfo.imageLinks ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
             title = item.volumeInfo.title;
             author = item.volumeInfo.authors;
             publisher = item.volumeInfo.publisher;
+            description = item.volumeInfo.description;
             bookLink = item.volumeInfo.previewLink;
-
-            // Append results to a div to display results and pass to display book function.
+            console.log(bookImage, title, author, publisher, bookLink)
+            // Append results to a div to display results and pass to display book
             $("#book-data").append(`<div class="col-lg-6">` +
-            displayBook(bookImage, title, author, publisher, bookLink)
-            +`</div>`);
+                displayBook(bookImage, title, author, publisher, description, bookLink) +
+                `</div>`);
+
         }
     }
-}
+};
+
+// Display results in a html div
+function displayBook(bookImage, title, author, publisher, description, bookLink) {
+
+    let results = "";
+    results += `
+    <div class="book-display-container">
+    <div class="display-box">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center movie-title">${title}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="${bookImage}" class="rounded mx-auto d-block book-image" alt="${title}">
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="">Author: ${author}</h3>
+                        <h3 class="">Publisher: ${publisher}</h3>
+                        <p>Description: ${description.slice(0, 200)}</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a target="_blank" href="${bookLink}" class="btn btn-secondary mb-2 ms-3"
+                                aria-label="Read book opens in new window">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                `
+    return results;
+};
 
 // Fetch the movie search information in the book search bar and search the api for the book.
 function fetchBookInformation(event) {
@@ -44,22 +83,22 @@ function fetchBookInformation(event) {
         return;
     }
 
-     // loader image gif while searching for a movie shown under search bar from https://icons8.com/preloaders/en/search/ 
+    // loader image gif while searching for a movie shown under search bar from https://icons8.com/preloaders/en/search/ 
     $("#loader").html(
             `<div id="loader">
                     <img src="assets/loader-image/loader.gif" alt="loading..." />
                     </div>`
         ),
-        
+
         // Gets movie information from google books url.
         $.getJSON(bookUrl + search,
             function (bookData) {
-                
+
                 // Pass book data to display book function
                 (displayBookResults(bookData))
                 console.log(bookData)
             },
-            
+
             // If an error occurs then show error response under search bar
             function error(errorResponse) {
                 if (errorResponse.status === 404) {
