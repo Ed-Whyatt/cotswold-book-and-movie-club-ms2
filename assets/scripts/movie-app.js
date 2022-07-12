@@ -1,29 +1,23 @@
 /* jshint esversion: 11, jquery: true */
 
-// display movieData in to a html document below the search bar
+// display movieData in to a html document below the search bar.
 function movieInformationHTML(movieData) {
     if (movieData.length === 0) {
-        $("#movie-data").html(`<div><h2> No movies!</h2></div>`)
+        $("#loader").html(`<div><h2> No movies!</h2></div>`)
     } else {
-        let displayResults = "";
-        console.log(movieData)
-        displayResults += ` 
-                    <div class="col movie-display-container">
-                    <div class="movie-display-box">
-                    <h2 class="text-center">${movieData.Title}</h2>
-                    <h3 class="text-center movie-display-plot">Plot: ${movieData.Plot}</h3>
-                    <img src="${movieData.Poster}" class="img-fluid rounded mx-auto d-block" alt="movie poster" placeholder="#">
-                    <h3 class="text-center">IMDB Rating: ${movieData.imdbRating}</h3>
-                    <h3 class="text-center">Director: ${movieData.Director}</h3>
-                    <h3 class="text-center">Genre: ${movieData.Genre}</h3>
-                    <h3 class="text-center">Viewing Rating: ${movieData.Rated}</h3>
-                    <h4 class="text-center">Date Released: ${movieData.Released}</h3>
-                    </div>
-                    </div>
-                    `
-            $("#movie-data").html(displayResults)
-            console.log(displayResults)
-            $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`)
+        console.log(movieData);
+        // Items to be displayed in display movie function
+        title = movieData.Title;
+        poster = movieData.Poster;
+        plot = movieData.Plot;
+        imdbRating = movieData.imdbRating;
+        director = movieData.Director;
+        genre = movieData.Genre;
+        viewingRating = movieData.Rated;
+        resleased = movieData.Released;
+
+        // Append results to a div to display results and pass to dispplay movie.
+        $("#movie-data").append(`<div class="col-lg-6">` + displayMovie(title, poster, plot, imdbRating, director, genre, viewingRating, resleased ) + `</div>`);
     }
 };
 
@@ -42,10 +36,10 @@ function fetchMovieInformation() {
         return;
     }
 
-     // loader image while searching for a movie shown under search bar
+     // loader image while searching for a movie shown under search bar from https://icons8.com/preloaders/en/search/
     $("#loader").html(
             `<div id="book-loader">
-                    <img src="assets/loader-image/loader.gif" alt="loading..." />
+                    <img src="assets/loader-image/loader.gif" class="img-fluid" alt="loading..." />
                     </div>`
 
         ),// gets movie data informaton from Omdbapi.com
@@ -58,7 +52,7 @@ function fetchMovieInformation() {
             // filter out undefined data
             if (data.Search !== undefined) {
                 $.each(data.Search, function (index, value) {
-                    if (index < 2) {
+                    if (index < 4) {
 
                         // search for imdb information from Omdbapi.com
                         $.getJSON("https://www.omdbapi.com/?", {
