@@ -27,7 +27,7 @@ function displayBookResults(response) {
                 `</div>`);
             
                 // Display message when a Movie is Found!!
-            $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`);
+            $("#loader").html(`<h2 class="search-message text-center">Book Found!!!</h2>`);
         }
     }
 };
@@ -38,7 +38,7 @@ function displayBook(bookImage, title, author, publisher, description, bookLink)
     let results = "";
     results += `
     <div class="book-display-container">
-    <div class="display-box">
+    <div class="book-display-box">
         <div class="row">
             <div class="col">
                 <h2 class="text-center movie-title">${title}</h2>
