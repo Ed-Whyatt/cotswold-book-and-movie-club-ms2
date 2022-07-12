@@ -18,6 +18,11 @@ function displayBookResults(bookData) {
             author = item.volumeInfo.authors;
             publisher = item.volumeInfo.publisher;
             bookLink = item.volumeInfo.previewLink;
+
+            // Append results to a div to display results and pass to display book function.
+            $("#book-data").append(`<div class="col-lg-6">` +
+            displayBook(bookImage, title, author, publisher, bookLink)
+            +`</div>`);
         }
     }
 }
