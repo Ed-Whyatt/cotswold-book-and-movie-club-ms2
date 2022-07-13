@@ -2,31 +2,30 @@
 
 // display bookData in to a html document below the search bar.
 function displayBookResults(response) {
-    console.log(response);
-
+console.log(response)
     // Placeholder image for when book search has no image
-    let placeHolder = "../images/book-search-placeholder.jpg"
+    let placeHolder = `<img src="../assets/images/book-search-placeholder">`;
 
     if (response.length === 0) {
         $("#loader").html(`<div><h2> No Books!</h2></div>`)
     } else {
+
         // Loop through book results and display in div
         for (var i = 0; i < 2; i++) {
             item = response.items[i];
-            bookImage = item.volumeInfo.imageLinks ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
+            bookImage = (item.volumeInfo.imageLinks) ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
             title = item.volumeInfo.title;
             author = item.volumeInfo.authors;
             publisher = item.volumeInfo.publisher;
-            description = item.volumeInfo.description;
+            description = item.searchInfo.textSnippet;
             bookLink = item.volumeInfo.previewLink;
-            console.log(bookImage, title, author, publisher, bookLink)
 
             // Append results to a div to display results and pass to display book
             $("#book-data").append(`<div class="col-lg-6">` +
                 displayBook(bookImage, title, author, publisher, description, bookLink) +
                 `</div>`);
-            
-                // Display message when a Movie is Found!!
+
+            // Display message when a Movie is Found!!
             $("#loader").html(`<h2 class="search-message text-center">Book Found!!!</h2>`);
         }
     }
@@ -53,11 +52,11 @@ function displayBook(bookImage, title, author, publisher, description, bookLink)
                     <div class="col">
                         <h3 class="">Author: ${author}</h3>
                         <h3 class="">Publisher: ${publisher}</h3>
-                        <p>Description: ${description.slice(0, 200)}</p>
+                        <p>Description: ${description}</p>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <a target="_blank" href="${bookLink}" class="btn btn-secondary mb-2 ms-3"
+                            <a target="_blank" href="${bookLink}" class="btn btn-secondary movie-button mb-2 ms-3"
                                 aria-label="Read book opens in new window">Read Book</a>
                         </div>
                     </div>
@@ -99,7 +98,6 @@ function fetchBookInformation(event) {
 
                 // Pass book data to display book function
                 (displayBookResults(bookData))
-                console.log(bookData)
             },
 
             // If an error occurs then show error response under search bar
