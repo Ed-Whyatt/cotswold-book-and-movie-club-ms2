@@ -63,11 +63,12 @@
                     <h1 class="text-center">Search for a book here</h1>
                     <form class="form-box" action="search">
                         <input type="text" class="form-control" id="book" oninput="fetchBookInformation()">
+                        <label hidden for="book">Seach for book here</label>
                         <div id="loader"></div>
                     </form>
                 </div>
             </div>
-            <div class="row m-3" id="book-data"></div>
+            <div class="row m-1" id="book-data"></div>
         </div>
     </section>
     <footer class="container-fluid">
