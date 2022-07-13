@@ -32,20 +32,21 @@ function displayMovie(title, poster, plot, imdb, director, genre, viewingRating,
     <div class="movie-display-box">
         <div class="row">
             <div class="col">
-                <h2 class="text-center movie-title">${title}</h2>
+                <h2 class="text-center movie-title uppercase">${title}</h2>
             </div>
         </div>
             <div class="col">
-                <img src="${poster}" class="rounded mx-auto d-block movie-image" alt="${title}" placeholder="#">
+                <img src="${poster}" class="rounded mx-auto d-block movie-image" alt="${title}">
             </div>
                 <div class="movie-info">
                     <div class="col">
-                        <h3>Director: ${director}</h3>
-                        <h3>Genre: ${genre}</h3>
-                        <h3>IMDB Rating: ${imdb}</h3>
-                        <h3>Viewing Rating: ${viewingRating}</h3>
-                        <h3>Date Released: ${resleased}</h3>
-                        <p>Plot: ${plot}</p>
+                        <h3><strong>Director:</strong><br>${director}</h3>
+                        <h3><strong>Genre:</strong><br>${genre}</h3>
+                        <h3><strong>IMDB Rating:</strong> ${imdb}</h3>
+                        <h3><strong>Viewing Rating:</strong> ${viewingRating}</h3>
+                        <h3><strong>Date Released:</strong><br>${resleased}</h3>
+                        <h3><strong>Plot:</strong><h3>
+                        <p>${plot}</p>
                     </div>
                 </div>
     </div>
@@ -55,11 +56,13 @@ function displayMovie(title, poster, plot, imdb, director, genre, viewingRating,
 
 // function to fetch the movie information from the search box in the movie search page
 function fetchMovieInformation() {
+    // Empty div elements to start
+    $("#loader").html("");
+    $("#movie").html("");
 
     // define contence of the serach value
-
     let search = $("#movie").val();
-    $("#loader").html("");
+    
 
 // if the search box is empty display message under search bar
     if (!search) {
