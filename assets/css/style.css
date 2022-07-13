@@ -5,7 +5,7 @@ body {
     font-family: 'Gentium Book Basic', sans-serif;
 }
 
-/* Genral paddings and margins for all pages */
+/* General text, paddings and margins for all pages */
 h1,h2,h3,h4 {
     margin: 0;
 }
@@ -184,7 +184,7 @@ tbody tr td {
 
 div#map {           
     margin-bottom: 10px;
-    max-height: 1100px;
+    height: 1100px;
 }
 
 /* loading gif and messages from movie app */
@@ -195,25 +195,7 @@ div#map {
     padding-top: 20px;
 }
 #book-loader {
-    padding-top: 30px;    
-}
-
-/* movie seearch page */
-.search-movie-image {
-    background: url('../images/search-movie-image.png');
-    background-color: #f3f3f6;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    min-height: 100vh;
-}
-.movie-search-box {
-    background-color: #d03507;  
+    padding-top: 30px;
 }
 
 .toggle-main {
@@ -254,6 +236,23 @@ div#map {
     letter-spacing: 2px;
 }
 
+/* movie seearch page */
+.search-movie-image {
+    background: url('../images/search-movie-image.png');
+    background-color: #f3f3f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    min-height: 100vh;
+}
+.movie-search-box {
+    background-color: #d03507;  
+}
 
 /* movie search results container */
 .movie-display-container {
@@ -267,6 +266,70 @@ div#map {
 .movie-display-plot {
     padding-left: 50px;
     margin-right: 50px;
+}
+
+/* Movie display box */
+.movie-image {
+    background: url(../images/movie-paceholder.png);
+    background-color: #d03507;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    min-height: 250px;
+    max-width: 90%;
+}
+.movie-info {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.movie-display-box h2 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.movie-display-box h4 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.movie-display-box h3 {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.movie-display-box p {
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+    font-size: 16px;
+    padding-bottom: 13px;
+    margin-right: 20%;
+}
+
+.movie-display-box .btn-secondary {
+    background-color: #0f5132;
+}
+
+.movie-button {
+    background-color: #0f5132;
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+}
+
+.movie-button:hover {
+    background: #d03507;
 }
 
 /* book search page */
@@ -304,7 +367,7 @@ div#map {
     margin-left: 15px;
 }
 
-/* Book display box */
+/* Book search results display box */
 
 .book-display-box h2 {
     font-family: 'Gentium Book Basic', sans-serif;
@@ -380,6 +443,9 @@ div#map {
     min-height: 250px;
     max-width: 90%;
 }
+
+/* movie serch results display box */
+
 .movie-info {
     width: 80%;
     margin-left: 20%;
