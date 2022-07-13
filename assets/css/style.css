@@ -207,8 +207,7 @@ div#map {
     min-height: 100vh;
 }
 .movie-search-box {
-    background-color: #d03507;
-    
+    background-color: #d03507;  
 }
 
 .toggle-main {
@@ -291,9 +290,7 @@ div#map {
 }
 
 .movie-title {
-    width: 90%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .book-image {
@@ -309,7 +306,7 @@ div#map {
 }
 
 .book-display-box img {
-    align-self: center;
+    margin-bottom: 10px;
 }
 
 .book-display-box h4 {
@@ -335,6 +332,7 @@ div#map {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #f3f3f6;
     margin-left: 10px;
+    margin-right: 23px;
 }
 
 /* book and movie page search box */
@@ -361,7 +359,11 @@ div#map {
 }
 
 /* Movie display box */
-
+.movie-image {
+    background-color: #0c279e;
+    min-height: 200px;
+    min-width: 200px;
+}
 .movie-info {
     width: 80%;
     margin-left: 20%;
@@ -398,6 +400,19 @@ div#map {
     margin-right: 20%;
 }
 
+.movie-display-box .btn-secondary {
+    background-color: #0f5132;
+}
+
+.movie-button {
+    background-color: #0f5132;
+    font-family: 'Gentium Book Basic', sans-serif;
+    color: #f3f3f6;
+}
+
+.movie-button:hover {
+    background: #d03507;
+}
 /* contact us page form container and button */
 .form-section {
     background-color: #fafafa;
