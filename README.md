@@ -4,7 +4,7 @@
 ***
 ## Code Institute – HTML/CSS/JavaScript -Interactive front end development milestone project 2.
 ***
-## [View The Live Project Here](#) - No link yet!
+## [View The Live Project Here](https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
 
 ## ![Text](#) - View on all devices - No link yet!
 
@@ -104,9 +104,10 @@
     - Hover.css is used for the hover effects on the navgation buttons.
 1. [Am I Responsive Design:](http://ami.responsivedesign.is/)
     - Am I Responsive Design was used for the responsive image in Readme.
-1. ANY MORE !!!?
+1. GIF
+1. 
 ## Testing
-- ### Jest: [View website](https://jestjs.io/)
+- ### Jest: [https://jestjs.io/](https://jestjs.io/)
 1. ### Initialising Jest
 #### In terminal in GitPod.io workspace type:
     npm init
@@ -145,7 +146,9 @@
 -
 -
 ## API Application Programming Interfaces used:
-- 
+- google maps
+- book
+- movie
 ## GitHub Projects
 -
 ## Changes made after UX, Design and Wireframes 
