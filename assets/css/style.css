@@ -626,6 +626,10 @@ button[type="submit"]:hover {
         margin-left: 0;
     }
 
+    .nav-toggle button:hover {
+        background: #45596c;
+    }
+
     .nav-toggle {
         margin-top: 10px;
         margin-left: 10px;
