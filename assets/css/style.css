@@ -360,9 +360,17 @@ div#map {
 
 /* Movie display box */
 .movie-image {
-    background-color: #0c279e;
-    min-height: 200px;
-    min-width: 200px;
+    background: url(../images/movie-paceholder.png);
+    background-color: #d03507;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    min-height: 250px;
+    max-width: 90%;
 }
 .movie-info {
     width: 80%;
