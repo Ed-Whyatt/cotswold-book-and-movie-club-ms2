@@ -81,8 +81,23 @@
 Am I Responsive has been used for the responsie image at the top of README.md you can view there website below.
 -   ### Responsive on all devices - [view](https://ui.dev/amiresponsive?url=https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
 
-## Interactive elements.
-
+## Interactive elements. NO LINKS YET !!!!!!
+- Interactive elements.
+1. Navagation has links to Home, Search for a Movie, Search for abook and Events.
+![text](#) 
+2. Intractiove navgation menu when viewd on small devices.
+![text](#) ![text](#)
+3. Footer with links to social media.
+4. Footer on small devices.
+5. Events map.
+6. Book search.
+7. Book search results.
+8. Book search link opens in new window.
+9. Movie search.
+10. contact us page contact request form sends email when submitted.
+- Other features include
+1. About us section on home page.
+2. Events section on home page.
 
 ## Technologies Used
 ### Languages Used
