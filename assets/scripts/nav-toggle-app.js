@@ -1,9 +1,9 @@
 /* jshint esversion: 11, jquery: true */
+
 // function in html for when navgation button is clicked
 function buttonClick() {
     let navList = document.getElementById("nav-list").innerHTML;
     let emptyList = document.getElementById("nav-list").innerHTML = "";
-    console.log(navList)
     if (navList === "") {
         loadList ();
     } else {
@@ -11,7 +11,7 @@ function buttonClick() {
     }
 
 
-};
+}
 // function to load navgation list
 function loadList () {
     let htmlList = (`<div class="toggle-main">
@@ -37,7 +37,7 @@ function loadList () {
                     class="fa fa-calendar" aria-hidden="true"></i><span>Events</span></a>
         </li>
     </ul>
-</div>`)
+</div>`);
     let list = document.getElementById("nav-list").innerHTML = htmlList;
     return list;
 }
