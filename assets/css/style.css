@@ -30,7 +30,7 @@ h1,h2,h3,h4 {
     background-color: #f3f3f6;
 }
 
-/* bootstrap style button */
+/* Toggle nav button for small devices */
 .nav-toggle-color {
     background-color: #45596c;
 }
@@ -51,7 +51,47 @@ h1,h2,h3,h4 {
     color: #f3f3f6;
 }
 
-/* navbar button colours */
+/* toggle style for when toggle app button is clicked on small devies */
+
+.toggle-main {
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.toggle-item {
+    height: 80px;
+    text-align: center;
+    padding: 0;
+}
+
+.toggle-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #f3f3f6;
+    height: 120px;
+}
+
+.toggle-item a i {
+    padding-top: 22px;
+    display: block;
+    color: #f3f3f6;
+    font-size: 18px;
+}
+
+.toggle-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/* navbar toggle and button colours */
 .home-menu-color {
     background-color: #0f5132;
 }
@@ -159,7 +199,7 @@ h1,h2,h3,h4 {
     font-weight: 800;
 }
 .events-location p {
-    margin-top: 15x;
+    margin-top: 15px;
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
 }
@@ -198,43 +238,7 @@ div#map {
     padding-top: 30px;
 }
 
-.toggle-main {
-    position: absolute;
-    z-index: 1;
-    width: 180px;
-    margin-top: 10px;
-    margin-left: -20px;
-}
-.toggle-item {
-    height: 80px;
-    text-align: center;
-    padding: 0;
-}
 
-.toggle-item a {
-    width: 100%;
-    text-decoration: none;
-    color: #f3f3f6;
-    height: 120px;
-}
-
-.toggle-item a i {
-    padding-top: 22px;
-    display: block;
-    color: #f3f3f6;
-    font-size: 18px;
-}
-
-.toggle-item span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Gentium Book Basic', sans-serif;
-    font-size: 14px;
-    letter-spacing: 2px;
-}
 
 /* movie seearch page */
 .search-movie-image {
@@ -268,7 +272,7 @@ div#map {
     margin-right: 50px;
 }
 
-/* Movie display box */
+/* Movie display box for movie search app*/
 .movie-image {
     background: url(../images/movie-paceholder.png);
     background-color: #d03507;
@@ -351,7 +355,7 @@ div#map {
 }
 
 
-/* book search results box */
+/* book search box */
 
 .book-display-container {
     background-color: #0c279e;
@@ -368,7 +372,7 @@ div#map {
     margin-left: 15px;
 }
 
-/* Book search results display box */
+/* Book search results display box for app */
 
 .book-display-box h2 {
     font-family: 'Gentium Book Basic', sans-serif;
