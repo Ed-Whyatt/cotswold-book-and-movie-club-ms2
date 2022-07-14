@@ -105,7 +105,7 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 ### Frameworks libraries and programming interface
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5.2.0:](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Lato', 'Poppins' and 'Pacifico' fonts into the style.css file which is used on all pages throughout the project.
@@ -123,8 +123,17 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
     - Hover.css is used for the hover effects on the navgation buttons.
 1. [Am I Responsive Design:](http://ami.responsivedesign.is/)
     - Am I Responsive Design was used for the responsive image in Readme.
-1. GIF
-1. 
+1. [Preloaders at icons8.com](https://icons8.com/preloaders/en/search/bar)
+    - Preloaders was used for the search loading bar in the book and movie search pages.
+
+### API Application Programming Interfaces used:
+ 1. [Google Maps API](https://developers.google.com/maps/documentation/javascript/marker-clustering?hl=en#maps_marker_clustering-javascript)
+    - Google Maps API is used for the map and the map clusters in the events map section of the home page. 
+1. [Google Books API](https://developers.google.com/books/docs/v1/using#PerformingSearch)
+    - Google Books API is used for the book seach app in the book search page.
+1. [OMDb API](http://www.omdbapi.com/)
+    - OMDb API is used for the book search app in the book search page.
+
 ## Testing
 - ### Jest: [https://jestjs.io/](https://jestjs.io/)
 1. ### Initialising Jest
@@ -164,10 +173,6 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 -
 -
 -
-## API Application Programming Interfaces used:
-- google maps
-- book
-- movie
 ## GitHub Projects
 -
 ## Changes made after UX, Design and Wireframes 
