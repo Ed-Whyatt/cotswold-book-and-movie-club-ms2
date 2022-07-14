@@ -4,10 +4,10 @@
 ***
 ## Code Institute – HTML/CSS/JavaScript -Interactive front end development milestone project 2.
 ***
-## [View The Live Project Here](https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
-
-## ![Text](#) - View on all devices - No link yet!
-
+## [Click Here To View The Live Project](https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
+***
+## ![Text](documentation/responsive-image/responseive-image.png)
+***
 ## UX user experience
 ***
 ## User stories
@@ -77,7 +77,8 @@
 3. Small Movie App Page Wireframe - [view](documentation/wireframes/club-small-movie-wf.png)
 4. Small Contact Page Wireframe - [view](documentation/wireframes/club-small-contact-wf.png)
 ## Features
--   ### Responsive on all devices - [view](#) NO LINKS YET!!!
+Am I Responsive has been used for the responsie image at the top of README.md you can view there website below.
+-   ### Responsive on all devices - [view](https://ui.dev/amiresponsive?url=https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
 -  ### Interactive elements.
 - images of all interactive elements
 ## Technologies Used
