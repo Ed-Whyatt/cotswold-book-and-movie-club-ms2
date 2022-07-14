@@ -491,7 +491,7 @@ button[type="submit"]:hover {
 .about-us {
     margin-top: 10px;
 }
-.about-us h4 {
+.about-us h2, h3, h4 {
     font-family: 'Gentium Book Basic', sans-serif;
     font-size: 20px;
 }
