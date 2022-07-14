@@ -7,14 +7,14 @@ function movieInformationHTML(movieData) {
     } else {
         console.log(movieData);
         // Items to be displayed in display movie function
-        title = movieData.Title;
-        poster = movieData.Poster;
-        plot = movieData.Plot;
-        imdb = movieData.imdbRating;
-        director = movieData.Director;
-        genre = movieData.Genre;
-        viewingRating = movieData.Rated;
-        resleased = movieData.Released;
+        let title = movieData.Title;
+        let poster = movieData.Poster;
+        let plot = movieData.Plot;
+        let imdb = movieData.imdbRating;
+        let director = movieData.Director;
+        let genre = movieData.Genre;
+        let viewingRating = movieData.Rated;
+        let resleased = movieData.Released;
 
         // Append results to a div to display results and pass to dispplay movie.
         $("#movie-data").append(`<div class="col-md-6 col-lg-4">` + displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased ) + `</div>`);
