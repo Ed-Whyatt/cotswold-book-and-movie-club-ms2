@@ -107,7 +107,7 @@ h1,h2,h3,h4 {
     letter-spacing: 2px;
 }
 /* main about us section on nome page index.html and apple image section */
-.about-us-main h3 {
+.about-us-main h2 {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #45596c;
     text-align: center;
@@ -555,18 +555,18 @@ button[type="submit"]:hover {
 .about-us {
     margin-top: 10px;
 }
-.about-us h5 {
+.about-us h4 {
     font-family: 'Gentium Book Basic', sans-serif;
     font-size: 20px;
 }
-.about-us h5 p {
+.about-us h4 p {
     font-family: 'Gentium Book Basic', sans-serif;
     font-size: 18px;
 }
 .club-social {
     margin-top: 10px
 }
-.club-social h5 {
+.club-social h4 {
     margin-right: 10px;
     font-family: 'Gentium Book Basic', sans-serif;
 }
