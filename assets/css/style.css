@@ -444,13 +444,13 @@ div#map {
     width: 60%;
     height: 80%;
 }
-.form-container h3 {
+.form-container h2 {
     font-family: 'Gentium Book Basic', sans-serif;
     text-align: center;
     color: #f3f3f6;
     padding-top: 40px;
 }
-.form-container h4 {
+.form-container h3 {
     font-family: 'Gentium Book Basic', sans-serif;
     text-align: center;
     color: #f3f3f6;
