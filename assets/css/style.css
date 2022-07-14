@@ -350,6 +350,7 @@ div#map {
     background-color: #0c279e;
 }
 
+
 /* book search results box */
 
 .book-display-container {
@@ -412,11 +413,12 @@ div#map {
     width: 60%;
     height: 80%;
 }
-.search-box h1 {
+.search-box label {
     font-family: 'Gentium Book Basic', sans-serif;
     color: #f3f3f6;
     font-size: 30px;
     padding-top: 40px;
+    padding-bottom: 20px;
 
 }
 .form-box {
