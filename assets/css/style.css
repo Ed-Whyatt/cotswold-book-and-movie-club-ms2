@@ -238,7 +238,7 @@ div#map {
 
 /* movie seearch page */
 .search-movie-image {
-    background: url('../images/search-movie-image.png');
+    background: url('../images/movie-search-image.jpg');
     background-color: #f3f3f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -334,7 +334,7 @@ div#map {
 
 /* book search page */
 .search-book-image {
-    background: url('../images/search-book-image.png');
+    background: url('../images/book-search-image.jpg');
     background-color: #f3f3f6;
     background-repeat: no-repeat;
     background-position: center center;
@@ -429,72 +429,6 @@ div#map {
     width: 80%;
 }
 
-/* Movie display box */
-.movie-image {
-    background: url(../images/movie-paceholder.png);
-    background-color: #d03507;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    min-height: 250px;
-    max-width: 90%;
-}
-
-/* movie serch results display box */
-
-.movie-info {
-    width: 80%;
-    margin-left: 20%;
-    margin-top: 20px;
-}
-
-.movie-display-box h2 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 35px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.movie-display-box h4 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 20px;
-    margin-bottom: 2px;
-}
-
-.movie-display-box h3 {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 20px;
-    margin-bottom: 2px;
-}
-
-.movie-display-box p {
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-    font-size: 16px;
-    padding-bottom: 13px;
-    margin-right: 20%;
-}
-
-.movie-display-box .btn-secondary {
-    background-color: #0f5132;
-}
-
-.movie-button {
-    background-color: #0f5132;
-    font-family: 'Gentium Book Basic', sans-serif;
-    color: #f3f3f6;
-}
-
-.movie-button:hover {
-    background: #d03507;
-}
 /* contact us page form container and button */
 .form-section {
     background-color: #fafafa;
