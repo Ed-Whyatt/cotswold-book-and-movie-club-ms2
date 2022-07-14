@@ -3,7 +3,7 @@
 // display movieData in to a html document below the search bar.
 function movieInformationHTML(movieData) {
     if (movieData.length === 0) {
-        $("#loader").html(`<div><h2> No movies!</h2></div>`)
+        $("#loader").html(`<div><h2> No movies!</h2></div>`);
     } else {
         console.log(movieData);
         // Items to be displayed in display movie function
@@ -22,7 +22,7 @@ function movieInformationHTML(movieData) {
         // Display message when a Movie is Found!!
         $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`);
     }
-};
+}
 
 // Display html results inside apended div
 function displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased) {
@@ -50,9 +50,9 @@ function displayMovie(title, poster, plot, imdb, director, genre, viewingRating,
                     </div>
                 </div>
     </div>
-</div> `
+</div> `;
     return results;
-};
+}
 
 // function to fetch the movie information from the search box in the movie search page
 function fetchMovieInformation() {
@@ -109,12 +109,12 @@ function fetchMovieInformation() {
                                     $("#loader").html(
                                         `<h2 class"search-message text-center">Error: ${errorResponse.responseJSON.message}</h2>`);
                                 }
-                            })
+                            });
                     }
                 });
             }
         });
-};
+}
 
 // function to get the html document ready for the app to start
 $(document).ready(fetchMovieInformation);
