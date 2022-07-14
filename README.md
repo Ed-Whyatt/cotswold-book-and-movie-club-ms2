@@ -135,6 +135,7 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
     - OMDb API is used for the book search app in the book search page.
 
 ## Testing
+## JEST
 - ### Jest: [https://jestjs.io/](https://jestjs.io/)
 1. ### Initialising Jest
 #### In terminal in GitPod.io workspace type:
@@ -147,11 +148,26 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
      npm install ---save-dev jest@26.6.3
 #### Click enter and it will install. For a more detailed exapmle go to [Jest: Documentation](https://jestjs.io/docs/getting-started).
 3. ### Using Jest
-### I will be useing Jest to test and build the navgation app only this is a key function in the use of the website in a mobile view. I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+### I will be useing Jest to do some tests on the navgation app only this is a key function in the use of the website in a mobile view. I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+- Testing the Dom research in using Jest [Documentation](https://jestjs.io/docs/tutorial-jquery)
+   - Jest Tests done in git enviroment.
+   1. Mock HTML file for testing purposes.
+### ![text](documentation/jest-test-images/jest-html-test.png)
+   2. Jest code used for testing the DOM of the button click function used in the navgation app.
+### ![text](documentation/jest-test-images/jest-test-code.png)
+   3. Get Jest test results by typing npm test in the terminal while in the git enviroment.
+                 
+          npm test
+
+### ![text](documentation/jest-test-images/jest-test.png)
+
 
 - Validater results
 - JS Hint
 - Ligthhouse
+
+### Testing User Stories from User Experience (UX) section
+
 ## Bugs Fixed
 1. Color contrast
 ### The colors chosen for the Home and Search for Movie navgation button where of to low contract and have been changed.
@@ -167,6 +183,8 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 - After fix 
 #### ![text](/documentation/bug-fix-images/locations-code-after.png) ####![text](/documentation/bug-fix-images/locations-after-fix.png)
 
+## Further testing
+- 
 ## Known bugs
 -  
 ## Testing User Stories from User Experience (UX) Section
