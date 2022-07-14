@@ -28,11 +28,11 @@
     2. As a Frequent user, I want to easily sech for a movie.
     3. As a Frequent user, I want to see the current book and movie events.
 
-## Design
+# Design
 
-### Design Introduction
+## Design Introduction
 - ### This website is designed for users who are interesting in joining the events of the book and movie club, they will also be able to search for books, movies and see where the events take place on Google maps. I want to make this website book and movie orientated using related images and bright colours in the navigation bar.
-### Colour Scheme
+## Colour Scheme
 
 - ### [Color Mind](http://colormind.io/) : Colormind has been used to aid the desision the colour sceme for the project.
 
@@ -43,17 +43,17 @@
 - #### The main colors used for text and backgrouds:
 ### ![Text](/documentation/color-sceme-images/text-background-color.png)
 
-### Typography:
+## Typography:
 - ### The fonts use throughout this website are:
 1. Gentium Book Basic with a fall back of sans serif.
-### Imagery
-- ###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and move theatre inspiring images. The images for Book and Movie serach pages are provided by the api libaries.
+## Imagery
+###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and move theatre inspiring images. The images for Book and Movie serach pages are provided by the api libaries.
 - ### The main images are:
 1. Main page Hero image of a [green apple on a book](assets/images/book-apple-image.png) from [https://www.stockvault.net](https://www.stockvault.net/photo/128129/book-and-apple). 
 2. Book search page image of [swirling books ](assets/images/search-book-image.png) link to image at [https://pixabay.com](https://pixabay.com/photos/book-notebook-learning-learn-1171564/).
 3. Movie search page image of a [blue movie theatre](assets/images/search-movie-image.png) link to image [https://pixabay.com](https://pixabay.com/photos/movie-theater-room-movie-2502213/).
 4. Both the [book place holder](assets/images/book-search-placeholder.jpg) and  [movie place holder](assets/images/movie-paceholder.png) images that are used when the searches have no images have come from [https://pixabay.com](https://pixabay.com).
-### Wireframes
+## Wireframes
 
 - ### Large screens
 
@@ -77,11 +77,13 @@
 2. Small Book App Page Wireframe - [view](documentation/wireframes/club-small-book-wf.png)
 3. Small Movie App Page Wireframe - [view](documentation/wireframes/club-small-movie-wf.png)
 4. Small Contact Page Wireframe - [view](documentation/wireframes/club-small-contact-wf.png)
-## Features
+# Features
 Am I Responsive has been used for the responsie image at the top of README.md you can view there website below.
 -   ### Responsive on all devices - [view](https://ui.dev/amiresponsive?url=https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
--  ### Interactive elements.
-- images of all interactive elements
+
+## Interactive elements.
+
+
 ## Technologies Used
 ### Languages Used
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
