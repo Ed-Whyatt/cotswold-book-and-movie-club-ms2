@@ -369,7 +369,17 @@ div#map {
 }
 
 .book-image {
-    margin-left: 15px;
+    background: url(../images/book-search-placeholder.jpg);
+    background-color: #0c279e;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    min-height: 180px;
+    max-width: 85%;
 }
 
 /* Book search results display box for app */

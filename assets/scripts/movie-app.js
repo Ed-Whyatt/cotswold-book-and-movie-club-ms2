@@ -5,10 +5,10 @@ function movieInformationHTML(movieData) {
     if (movieData.length === 0) {
         $("#loader").html(`<div><h2> No movies!</h2></div>`);
     } else {
-        console.log(movieData);
         // Items to be displayed in display movie function
+        let = moviePlaceHolder = "../assets/images/movie-paceholder.png"
         let title = movieData.Title;
-        let poster = movieData.Poster;
+        let poster = movieData.Poster === "N/A" ? moviePlaceHolder : movieData.Poster;
         let plot = movieData.Plot;
         let imdb = movieData.imdbRating;
         let director = movieData.Director;
