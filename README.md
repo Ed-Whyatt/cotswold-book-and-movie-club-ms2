@@ -161,12 +161,40 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 
 ### ![text](documentation/jest-test-images/jest-test.png)
 
+## Testing
+
+### W3C Markup Validator [W3C Markup Validator](https://validator.w3.org/#validate_by_uri).
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   ### [W3C Markup Validator](https://validator.w3.org/#validate_by_uri)
+-   ### Home page 
+1. Initial test.
+    ### ![Text](documentation/markup-validator-images/html-test.png)
+2. Test after bugs fixed in bugs fixed section in README.md
+    ### ![Text](documentation/markup-validator-images/home-html-after.png)
+-   ### Movie Search Page 
+1. Initial test.
+    ### ![Text](documentation/markup-validator-images/movie-html-before.png)
+2. Test after bugs fixed in bugs fixed section in README.md
+    ### ![Text](documentation/markup-validator-images/movie-html-after.png)
+-   ### Book Search Page
+1. Initial test.
+    ### ![Text](documentation/markup-validator-images/book-html-before.png)
+2. Test after bugs fixed in bugs fixed section in README.md
+    ### ![Text](documentation/markup-validator-images/book-html-after.png)
+-   ### contact Us
+1. Initial test no bugs to fix after test was done.
+    ### ![Text](documentation/markup-validator-images/contact-html-test.png)
+-   ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+1. Initial test.
+    ### ![Text](documentation/markup-validator-images/wsc-css-before.png)
+2. Test after bugs fixed in bugs fixed section in README.md
+    ### ![Text](documentation/markup-validator-images/ws3-css-after.png)
 
 - Validater results
 - JS Hint
-- Ligthhouse
+- Lighthouse
 
-### Testing User Stories from User Experience (UX) section
 
 ## Bugs Fixed
 1. Color contrast
@@ -185,6 +213,9 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 
 ## Further testing
 - 
+
+### Testing User Stories from User Experience (UX) section
+
 ## Known bugs
 -  
 ## Testing User Stories from User Experience (UX) Section
