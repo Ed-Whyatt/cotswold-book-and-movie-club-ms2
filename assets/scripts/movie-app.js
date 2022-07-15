@@ -67,7 +67,7 @@ function fetchMovieInformation() {
 // if the search box is empty display message under search bar
     if (!search) {
         $("#loader").html(`<h2 class="search-message text-center">
-        Pease Search For A Movie!!</h2>`);
+        Pease Search For A Movie!!</h2>`)
         return;
     }
 
