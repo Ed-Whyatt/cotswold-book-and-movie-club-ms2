@@ -78,7 +78,7 @@
 3. Small Movie App Page Wireframe - [view](documentation/wireframes/club-small-movie-wf.png)
 4. Small Contact Page Wireframe - [view](documentation/wireframes/club-small-contact-wf.png)
 # Features
-Am I Responsive has been used for the responsie image at the top of README.md you can view there website below.
+Am I Responsive has been used for the responsie image at the top of README.md you can view there website below and interatct with this project on each device.
 -   ### Responsive on all devices - [view](https://ui.dev/amiresponsive?url=https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
 
 ## Interactive elements. NO LINKS YET !!!!!!
@@ -163,24 +163,24 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 
 ## Testing
 
-### W3C Markup Validator [W3C Markup Validator](https://validator.w3.org/#validate_by_uri).
+### W3C Markup Validator - [Link to site](https://validator.w3.org/#validate_by_uri).
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   ### [W3C Markup Validator](https://validator.w3.org/#validate_by_uri)
 -   ### Home page 
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/html-test.png)
-2. Test after bugs fixed in bugs fixed section in README.md
+2. Test after bugs fixed in bugs fixed section in README.md below.
     ### ![Text](documentation/markup-validator-images/home-html-after.png)
 -   ### Movie Search Page 
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/movie-html-before.png)
-2. Test after bugs fixed in bugs fixed section in README.md
+2. Test after bugs fixed in bugs fixed section in README.md below.
     ### ![Text](documentation/markup-validator-images/movie-html-after.png)
 -   ### Book Search Page
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/book-html-before.png)
-2. Test after bugs fixed in bugs fixed section in README.md
+2. Test after bugs fixed in bugs fixed section in README.md below.
     ### ![Text](documentation/markup-validator-images/book-html-after.png)
 -   ### contact Us
 1. Initial test no bugs to fix after test was done.
@@ -188,13 +188,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/wsc-css-before.png)
-2. Test after bugs fixed in bugs fixed section in README.md
+2. Test after bugs fixed in bugs fixed section in README.md below.
     ### ![Text](documentation/markup-validator-images/ws3-css-after.png)
 
-- Validater results
-- JS Hint
-- Lighthouse
+## JSHint - [Link to site](https://jshint.com/)
+JSHint  Services were used to validate every JavaScript page of the project to ensure there were no major syntax errors in the project.
+### Book search App
+1.  Initial test.
+### ![Text](documentation/jshint-images/book-app-before.png)
+2. Test after needed bugs fixed in bugs fixed section below.
+### ![Text](documentation/jshint-images/book-app-after.png)
 
+### Maps - [link to documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering)
+1.  Maps test, I decide not to change anything as most of the code is from the documentation.
+### ![Text](documentation/jshint-images/map-app-results.png)
+
+### Movie app
+1.  Initial test.
+### ![Text](documentation/jshint-images/movie-search-after.png)
+2. Test after needed bugs fixed in bugs fixed section below.
+### ![Text](documentation/jshint-images/movie-search-after.png)
+
+### Nav toggle App
+1.  Initial test.
+### ![Text](documentation/jshint-images/movie-search-after.png)
+2. Test after needed bugs fixed in bugs fixed section below.
+### ![Text](documentation/jshint-images/movie-search-after.png)
+
+### Send Email
+### ![Text](documentation/jshint-images/email-results.png)
 
 ## Bugs Fixed
 1. Color contrast
@@ -217,7 +239,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Testing User Stories from User Experience (UX) section
 
 ## Known bugs
--  
+-  book and movie search lots of text - loader continues
 ## Testing User Stories from User Experience (UX) Section
 -
 -
