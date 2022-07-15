@@ -161,42 +161,43 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 
 ### ![text](documentation/jest-test-images/jest-test.png)
 
-## Testing
-
-### W3C Markup Validator - [Link to site](https://validator.w3.org/#validate_by_uri).
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+## W3C Markup Validator - [Link to site](https://validator.w3.org/#validate_by_uri).
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The most substantial bugs that were fixed are in the bu fixed section below testing in README.md.
 
 -   ### [W3C Markup Validator](https://validator.w3.org/#validate_by_uri)
+
 -   ### Home page 
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/html-test.png)
-2. Test after bugs fixed in bugs fixed section in README.md below.
+2. Test after bugs fixed.
     ### ![Text](documentation/markup-validator-images/home-html-after.png)
+
 -   ### Movie Search Page 
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/movie-html-before.png)
-2. Test after bugs fixed in bugs fixed section in README.md below.
+2. Test after bugs fixed.
     ### ![Text](documentation/markup-validator-images/movie-html-after.png)
+
 -   ### Book Search Page
 1. Initial test.
     ### ![Text](documentation/markup-validator-images/book-html-before.png)
-2. Test after bugs fixed in bugs fixed section in README.md below.
+2. Test after bugs fixed.
     ### ![Text](documentation/markup-validator-images/book-html-after.png)
+
 -   ### contact Us
 1. Initial test no bugs to fix after test was done.
     ### ![Text](documentation/markup-validator-images/contact-html-test.png)
 -   ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-1. Initial test.
-    ### ![Text](documentation/markup-validator-images/wsc-css-before.png)
-2. Test after bugs fixed in bugs fixed section in README.md below.
+2. Test after the needed bugs fixed.
     ### ![Text](documentation/markup-validator-images/ws3-css-after.png)
 
 ## JSHint - [Link to site](https://jshint.com/)
-JSHint  Services were used to validate every JavaScript page of the project to ensure there were no major syntax errors in the project.
+JSHint  Services were used to validate every JavaScript page of the project to ensure there were no major syntax errors in the project. The most substantial bugs that were fixed are in the bu fixed section below testing in README.md.
+
 ### Book search App
 1.  Initial test.
 ### ![Text](documentation/jshint-images/book-app-before.png)
-2. Test after needed bugs fixed in bugs fixed section below.
+2. Test after needed bugs fixed.
 ### ![Text](documentation/jshint-images/book-app-after.png)
 
 ### Maps - [link to documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering)
@@ -206,17 +207,52 @@ JSHint  Services were used to validate every JavaScript page of the project to e
 ### Movie app
 1.  Initial test.
 ### ![Text](documentation/jshint-images/movie-search-after.png)
-2. Test after needed bugs fixed in bugs fixed section below.
+2. Test after the needed bugs fixed in bugs fixed section below.
 ### ![Text](documentation/jshint-images/movie-search-after.png)
 
 ### Nav toggle App
 1.  Initial test.
 ### ![Text](documentation/jshint-images/movie-search-after.png)
-2. Test after needed bugs fixed in bugs fixed section below.
+2. Test after the needed bugs fixed in bugs fixed section below.
 ### ![Text](documentation/jshint-images/movie-search-after.png)
 
 ### Send Email
 ### ![Text](documentation/jshint-images/email-results.png)
+
+## Google Chrome Developer Tools
+Google Chrome Developer Tools has been used throughout the development of this page, To use it in Google Crome browser Right click anywhere on the screen and click inspect on the menu.
+
+### Google Chrome Developer Tool Lighthouse results
+#### Home Page
+1.  Initial test.
+### ![Text](documentation/crome-lighthouse-images/home-ligth-house-before.png)
+2. Test after bugs fixed and genral inprovments.
+### ![Text](documentation/crome-lighthouse-images/home-lighthouse-after.png)
+
+#### Search For Movie Page
+1.  Initial test.
+### ![Text](documentation/crome-lighthouse-images/movie-lighthouse-before.png)
+2. Test after bugs fixed and genral inprovments.
+### ![Text](documentation/crome-lighthouse-images/movie-lighthouse-after.png)
+
+#### Search for Book Page
+1.  Initial test.
+### ![Text](documentation/crome-lighthouse-images/book-lighthouse-before.png)
+2. Test after bugs fixed and genral inprovments.
+### ![Text](documentation/crome-lighthouse-images/book-lighthouse-after.png)
+
+#### Contact Us Page
+1.  Initial test.
+### ![Text](documentation/google-lighthouse-images/contact-lighthouse-before.png)
+3. Test after bugs fixed and genral inprovments.
+### ![Text](documentation/crome-lighthouse-images/contact-us-after.png)
+
+Some tests that lighthouse testing revealed are external and i have not changed them here are some that stand out.
+1. The JQuary library shows as a medium securty risk.
+### ![text](documentation/crome-lighthouse-images/lighthouse-allpages.png)
+2. 
+The Google Maps Street view image displays with incorrect aspect ratio.
+### ![text](documentation/chrome-lighthouse-images/ligthhouse-google-maps.png)
 
 ## Bugs Fixed
 1. Color contrast
