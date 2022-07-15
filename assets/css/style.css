@@ -492,7 +492,7 @@ button[type="reset"] {
     background-color: #0f5132;
     color: #fafafa;
 }
-button[type="submit"]:hover {
+button[type="reset"]:hover {
     background-color: #0c279e;
 }
 

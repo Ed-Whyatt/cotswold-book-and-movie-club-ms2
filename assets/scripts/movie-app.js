@@ -6,7 +6,7 @@ function movieInformationHTML(movieData) {
         $("#loader").html(`<div><h2> No movies!</h2></div>`);
     } else {
         // Items to be displayed in display movie function
-        let = moviePlaceHolder = "../assets/images/movie-paceholder.png"
+        let moviePlaceHolder = "assets/images/movie-paceholder.png"
         let title = movieData.Title;
         let poster = movieData.Poster === "N/A" ? moviePlaceHolder : movieData.Poster;
         let plot = movieData.Plot;

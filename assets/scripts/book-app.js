@@ -11,8 +11,8 @@ function displayBookResults(response) {
         for (var i = 0; i < 2; i++) {
             let item = response.items[i];
             // Placeholder image for when book search has no image
-            let placeHolder = "../assets/images/book-search-placeholder.jpg";
-            let noInformation = `No information`
+            let placeHolder = "assets/images/book-search-placeholder.jpg";
+            let noInformation = `No information`;
             let bookImage = item.volumeInfo.imageLinks ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
             let title = item.volumeInfo.title;
             let author = item.volumeInfo.authors;
