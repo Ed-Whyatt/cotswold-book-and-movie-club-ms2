@@ -1,24 +1,25 @@
 /* jshint esversion: 11, jquery: true */
 
 // display bookData in to a html document below the search bar.
-function displayBookResults(response) {
-    // Placeholder image for when book search has no image
-    let placeHolder = `<img src="../assets/images/book-search-placeholder">`;
+function displayBookResults(response) { 
 
     if (response.length === 0) {
         $("#loader").html(`<div><h2> No Books!</h2></div>`);
     } else {
-
+            
         // Loop through book results and display in div
         for (var i = 0; i < 2; i++) {
             let item = response.items[i];
-            let bookImage = (item.volumeInfo.imageLinks) ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
+            // Placeholder image for when book search has no image
+            let placeHolder = "../assets/images/book-search-placeholder.jpg";
+            let noInformation = `No information`
+            let bookImage = item.volumeInfo.imageLinks ? item.volumeInfo.imageLinks.thumbnail : placeHolder;
             let title = item.volumeInfo.title;
             let author = item.volumeInfo.authors;
-            let publisher = item.volumeInfo.publisher;
-            let description = item.searchInfo.textSnippet;
+            let publisher = item.volumeInfo.publisher ? item.volumeInfo.publisher : noInformation;
+            let description = item.searchInfo ? item.searchInfo.textSnippet : noInformation;
             let bookLink = item.volumeInfo.previewLink;
-
+            
             // Append results to a div to display results and pass to display book
             $("#book-data").append(`<div class="col-lg-6">` +
                 displayBook(bookImage, title, author, publisher, description, bookLink) +
