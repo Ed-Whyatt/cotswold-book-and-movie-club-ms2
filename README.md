@@ -168,56 +168,56 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   ### Home page 
 1. Initial test.
-    ### ![Text](documentation/markup-validator-images/html-test.png)
+    ### ![text](documentation/markup-validator-images/html-test.png)
 2. Test after bugs fixed.
-    ### ![Text](documentation/markup-validator-images/home-html-after.png)
+    ### ![text](documentation/markup-validator-images/home-html-after.png)
 
 -   ### Movie Search Page 
 1. Initial test.
-    ### ![Text](documentation/markup-validator-images/movie-html-before.png)
+    ### ![text](documentation/markup-validator-images/movie-html-before.png)
 2. Test after bugs fixed.
-    ### ![Text](documentation/markup-validator-images/movie-html-after.png)
+    ### ![text](documentation/markup-validator-images/movie-html-after.png)
 
 -   ### Book Search Page
 1. Initial test.
-    ### ![Text](documentation/markup-validator-images/book-html-before.png)
+    ### ![text](documentation/markup-validator-images/book-html-before.png)
 2. Test after bugs fixed.
-    ### ![Text](documentation/markup-validator-images/book-html-after.png)
+    ### ![text](documentation/markup-validator-images/book-html-after.png)
 
 -   ### contact Us
 1. Initial test no bugs to fix after test was done.
-    ### ![Text](documentation/markup-validator-images/contact-html-test.png)
+    ### ![text](documentation/markup-validator-images/contact-html-test.png)
 -   ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 2. Test after the needed bugs fixed.
-    ### ![Text](documentation/markup-validator-images/ws3-css-after.png)
+    ### ![text](documentation/markup-validator-images/ws3-css-after.png)
 
 ## JSHint - [Link to site](https://jshint.com/)
 JSHint  Services were used to validate every JavaScript page of the project to ensure there were no major syntax errors in the project. The most substantial bugs that were fixed are in the bu fixed section below testing in README.md.
 
 ### Book search App
 1.  Initial test.
-### ![Text](documentation/jshint-images/book-app-before.png)
+## ![text](documentation/jshint-images/book-app-before.png)
 2. Test after needed bugs fixed.
-### ![Text](documentation/jshint-images/book-app-after.png)
+## ![text](documentation/jshint-images/book-app-after.png)
 
 ### Maps - [link to documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering)
 1.  Maps test, I decide not to change anything as most of the code is from the documentation.
-### ![Text](documentation/jshint-images/map-app-results.png)
+### ![text](documentation/jshint-images/map-app-results.png)
 
 ### Movie app
 1.  Initial test.
-### ![Text](documentation/jshint-images/movie-search-after.png)
+### ![text](documentation/jshint-images/movie-search-after.png)
 2. Test after the needed bugs fixed in bugs fixed section below.
-### ![Text](documentation/jshint-images/movie-search-after.png)
+### ![text](documentation/jshint-images/movie-search-after.png)
 
 ### Nav toggle App
 1.  Initial test.
-### ![Text](documentation/jshint-images/movie-search-after.png)
+### ![text](documentation/jshint-images/toggle-app-before.png)
 2. Test after the needed bugs fixed in bugs fixed section below.
-### ![Text](documentation/jshint-images/movie-search-after.png)
+### ![text](documentation/jshint-images/nav-toggle-after.png)
 
 ### Send Email
-### ![Text](documentation/jshint-images/email-results.png)
+### ![text](documentation/jshint-images/email-results.png)
 
 ## Google Chrome Developer Tools
 Google Chrome Developer Tools has been used throughout the development of this page, To use it in Google Crome browser Right click anywhere on the screen and click inspect on the menu.
@@ -243,8 +243,8 @@ Google Chrome Developer Tools has been used throughout the development of this p
 
 #### Contact Us Page
 1.  Initial test.
-### ![Text](documentation/google-lighthouse-images/contact-lighthouse-before.png)
-3. Test after bugs fixed and genral inprovments.
+### ![text](documentation/crome-lighthouse-images/contact-lighthouse-before.png)
+2. Test after bugs fixed and genral inprovments.
 ### ![Text](documentation/crome-lighthouse-images/contact-us-after.png)
 
 Some tests that lighthouse testing revealed are external and i have not changed them here are some that stand out.
@@ -252,7 +252,7 @@ Some tests that lighthouse testing revealed are external and i have not changed 
 ### ![text](documentation/crome-lighthouse-images/lighthouse-allpages.png)
 2. 
 The Google Maps Street view image displays with incorrect aspect ratio.
-### ![text](documentation/chrome-lighthouse-images/ligthhouse-google-maps.png)
+### ![text](documentation/crome-lighthouse-images/ligthhouse-google-maps.png)
 
 ## Bugs Fixed
 1. Color contrast
@@ -279,14 +279,16 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 ## Testing User Stories from User Experience (UX) Section
 -
 -
--
-## GitHub Projects
--
 ## Changes made after UX, Design and Wireframes 
 - 
 ## Credits
-- 
-## Tutorials used
-- 
+ - ### Tutorials used
+    - ####  Google Cluster Maps for maps.js
+      #### Google maps cluster documentation - [view](https://developers.google.com/maps/documentation/javascript/marker-clustering)
+    - #### root tech How to Program Web App Using Google Book API used to help with book-app.js
+      #### root tech YouTube - [view](https://www.youtube.com/watch?v=uaMMkaa-P_A&list=PLv3FkN9_9-cvHY-oSLsSFL9OwRalG793b&index=2)
+    - #### Coding Shiksha Build a Movie Info App in Javascript and Boostrap Using OMDb API used to help with movie-app.js     
+      #### Coding Shiksha Youtube - [view](https://www.youtube.com/watch?v=8iuPNq553U0)
+
 ## Acknowledgments
 - 
