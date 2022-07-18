@@ -276,16 +276,21 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 #### ![text](documentation/bug-fix-images/gap-code-before.png) #### ![text](documentation/bug-fix-images/gap-before.png)
 - After fix same code for all pages.
 #### ![text](documentation/bug-fix-images/gap-code-after.png) #### ![text](documentation/bug-fix-images/gap-after.png)
-4.
-- Before fix
-#### ![text]() ![text]()
-- After fix
-#### ![text]() ![text]()
+4. The discription in the book search results displayed was to long so i oraginally put a slice function in to reduce the size. Crome devlpoment tools showd an error, so i changed the information displayed to the book text snippet instend of the book description in the array of results from the Google Book API.
+- Book search Crome devlpoment tool error. And changed 
+#### ![text](documentation/bug-fix-images/slice-bug.png)
+- Code before fix in book-app.js
+#### ![text](documentation/bug-fix-images/slice-old-code.png) 
+#### ![text](documentation/bug-fix-images/java-slice-code-before.png)
+- Code after fix in book-app.js
+#### ![text](documentation/bug-fix-images/slice-new-code-two.png) 
+#### ![text](documentation/bug-fix-images/slice-new-code-one.png) 
 5.
 - Before fix
-#### ![text]() ![text]()
+#### ![text]() ####![text]()
 - After fix
-#### ![text]() ![text]()
+#### ![text]() ####![text]()git status
+
 ## Further testing
 - 
 
