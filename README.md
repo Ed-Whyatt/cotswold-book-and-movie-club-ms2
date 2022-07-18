@@ -285,11 +285,18 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 - Code after fix in book-app.js
 #### ![text](documentation/bug-fix-images/slice-new-code-two.png) 
 #### ![text](documentation/bug-fix-images/slice-new-code-one.png) 
-5.
+5. Crome Dev Tool showed a readbility issue with the search bar in both the move and book search pages. Im removed the h1 heading and used the label for the heading.
+- Crome Dev Tool Readabilty
+#### ![text](documentation/bug-fix-images/form-readabilty.png)
+- Before fix
+#### ![text](documentation/bug-fix-images/search-code-before.png)
+- After fix
+#### ![text](documentation/bug-fix-images/form-code-after.png)
+6. 
 - Before fix
 #### ![text]() ####![text]()
 - After fix
-#### ![text]() ####![text]()git status
+#### ![text]() ####![text]()
 
 ## Further testing
 - 
