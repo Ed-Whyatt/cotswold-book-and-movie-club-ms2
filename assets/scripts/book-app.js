@@ -1,5 +1,9 @@
 /* jshint esversion: 11, jquery: true */
 
+// root tech YouTube tutorial helped with some of the code in this app
+// Youtube link - https://www.youtube.com/watch?v=bsZKDIaij-A&list=PLv3FkN9_9-cvHY-oSLsSFL9OwRalG793b&index=1
+// sorce code root tech - https://github.com/zentech/Book-Finder
+
 // display bookData in to a html document below the search bar.
 function displayBookResults(response) { 
 
