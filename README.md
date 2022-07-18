@@ -306,7 +306,14 @@ The Google Maps Street view image displays with incorrect aspect ratio.
    #### ![text](documentation/bug-fix-images/dev-tool-movie-code-before.png)
 - After fix
    #### ![text](documentation/bug-fix-images/movie-dev-code-after.png)
-8. 
+8. The heading and footer took up too much realastate on the page in small devie view so i changed the html with bootstrap collums and css useing media quaries.
+- Small view and css before fix
+  #### ![text](documentation/bug-fix-images/header-foorter-before.png) ![text](documentation/bug-fix-images/heading-css-before.png)
+- Html Changes
+  #### ![text](documentation/bug-fix-images/footer-code-changed.png)
+- Small view and css that media quaries will change at max width 500px.
+  #### ![text](documentation/bug-fix-images/header-footer-after.png) ![text](documentation/bug-fix-images/heading-media-css.png)
+
 ## Further testing
 - family etc
 - diffrent browsers
@@ -316,7 +323,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 ## Known bugs
 -  book and movie search lots of text - loader continues
 ## Testing User Stories from User Experience (UX) Section
--
+- movie display multibal movies
 -
 ## Changes made after UX, Design and Wireframes 
 - 
