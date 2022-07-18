@@ -314,8 +314,6 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 - Small view and css that media quaries will change at max width 500px.
   #### ![text](documentation/bug-fix-images/header-footer-after.png) ![text](documentation/bug-fix-images/heading-media-css.png)
 
-
-
 ### Testing User Stories from User Experience (UX) section
 - movie display multibal movies
 ## Known bugs
@@ -331,6 +329,25 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 
 
 ## Credits
+
+###  Code
+
+   -   [Code Institute](https://codeinstitute.net/): Code Institutes lessons have help with all coding throughout this project.
+
+   -   [Code Institute Sample README.md](https://github.com/Code-Institute-Solutions/SampleREADME): Code Institute Sample README.md has been used to help with readme layout.
+
+   -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+   -   [W3 Schools](https://www.w3schools.com/): W3 Schools has been used with some elements in this project.
+
+   -   [Autoprefixer](https://autoprefixer.github.io/): Autoprefixer has been used with the images in css for Crapple/Apple/iOS fallback browsers.
+
+   -   [Pixabay](https://pixabay.com) : Pixabay images have been used to show for the movie and book search pages background and placeholder images.
+
+   - [Stockvault](https://www.stockvault.net) : Has been used for the image of a apple on a book in the main home page.
+
+   - [Hover.css](http://ianlunn.github.io/Hover/) Has been used for the hover book turn page and word pop effect on the navgation menu.
+
  - ### Tutorials used
     - ####  Google Cluster Maps for maps.js
       #### Google maps cluster documentation - [view](https://developers.google.com/maps/documentation/javascript/marker-clustering)
