@@ -285,7 +285,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 - Code after fix in book-app.js
 #### ![text](documentation/bug-fix-images/slice-new-code-two.png) 
 #### ![text](documentation/bug-fix-images/slice-new-code-one.png) 
-5. Crome Dev Tool showed a readbility issue with the search bar in both the move and book search pages. Im removed the h1 heading and used the label for the heading changes are the same for both pages.
+5. Crome Dev Tool showed a readbility issue with the search bar in both the movie and book search pages. Im removed the h1 heading and used the label for the heading changes are the same for both pages.
 - Crome Dev Tool Readabilty
 #### ![text](documentation/bug-fix-images/form-readabilty.png)
 - Before fix
@@ -314,19 +314,22 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 - Small view and css that media quaries will change at max width 500px.
   #### ![text](documentation/bug-fix-images/header-footer-after.png) ![text](documentation/bug-fix-images/heading-media-css.png)
 
-## Further testing
-- family etc
-- diffrent browsers
+
 
 ### Testing User Stories from User Experience (UX) section
-
+- movie display multibal movies
 ## Known bugs
 -  book and movie search lots of text - loader continues
-## Testing User Stories from User Experience (UX) Section
-- movie display multibal movies
--
-## Changes made after UX, Design and Wireframes 
-- 
+
+### Changes made after UX, Design and Wireframes
+- The navgation menu colour were change for the white text contrast with the backgrounds. 
+- The movie search page was originaly going to dispaly one result but it was decided to change it to display more.
+    - Before Change
+    #### ![text](documentation/bug-fix-images/movie-single-display.png) ![text](documentation/bug-fix-images/movie-single-display-code.png)
+    - After change
+    #### ![twxt](documentation/bug-fix-images/movie-multi.png) ![text](documentation/bug-fix-images/movie-data-after.png) ![text](documentation/bug-fix-images/movie-data-after-one.png) 
+
+
 ## Credits
  - ### Tutorials used
     - ####  Google Cluster Maps for maps.js
