@@ -268,7 +268,21 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 #### ![text](/documentation/bug-fix-images/locations-code-before.png) ####![text](/documentation/bug-fix-images/locations-before-fix.png)
 - After fix 
 #### ![text](/documentation/bug-fix-images/locations-code-after.png) ####![text](/documentation/bug-fix-images/locations-after-fix.png)
-
+3. There was a gap on the gight hand side of every page that was causing the page to show an unwanted horizontal scroll bar.
+- Before fix
+#### ![text](documentation/bug-fix-images/gap-code-before.png) #### ![text](documentation/bug-fix-images/gap-before.png)
+- After fix
+#### ![text](documentation/bug-fix-images/gap-code-after.png) #### ![text](documentation/bug-fix-images/gap-after.png)
+4.
+- Before fix
+#### ![text]() ![text]()
+- After fix
+#### ![text]() ![text]()
+5.
+- Before fix
+#### ![text]() ![text]()
+- After fix
+#### ![text]() ![text]()
 ## Further testing
 - 
 
