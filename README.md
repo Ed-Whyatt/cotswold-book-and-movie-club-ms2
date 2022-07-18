@@ -135,6 +135,7 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
     - OMDb API is used for the book search app in the book search page.
 
 ## Testing
+***
 ## JEST
 - ### Jest: [https://jestjs.io/](https://jestjs.io/)
 1. ### Initialising Jest
@@ -209,7 +210,7 @@ JSHint  Services were used to validate every JavaScript page of the project to e
 
 ### Movie app
 1.  Initial test.
-### ![text](documentation/jshint-images/movie-search-after.png)
+### ![text](documentation/jshint-images/move-search-app-before.png)
 2. Test after the needed bugs fixed in bugs fixed section below.
 ### ![text](documentation/jshint-images/movie-search-after.png)
 
@@ -313,6 +314,20 @@ The Google Maps Street view image displays with incorrect aspect ratio.
   #### ![text](documentation/bug-fix-images/footer-code-changed.png)
 - Small view and css that media quaries will change at max width 500px.
   #### ![text](documentation/bug-fix-images/header-footer-after.png) ![text](documentation/bug-fix-images/heading-media-css.png)
+  
+  ### Further Testing
+
+-   The website has been tested on such browsers as: 
+    -  Google Chrome [view](documentation/browser-screenshots/crome.pngchrome.png)
+    -  Microsoft Edge [view](documentation/browser-screenshots/edge.pngedge.png)
+    -  Firefox [view](documentation/browser-screenshots/firefox.pngfirefox.png)
+-   The website was viewed on such devices as: 
+     - Desktop [view](documentation/browser-screenshots/crome.png)
+     - Laptop [view](#) NO LINK YET !!! !!!
+     - Samsung Glaxy note 10 [view](documentation/device-screenshots/note-ten-chrome.jpgnote-ten.jpg)
+     - Samsung tablet 3 [view](documentation/device-screenshots/tab-three.png)
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website has been tested by friends and family members to review the site and documentation to point out any bugs and/ or user experience issues.
 
 ### Testing User Stories from User Experience (UX) section
 - movie display multibal movies
@@ -329,6 +344,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 
 
 ## Credits
+***
 
 ###  Code
 
@@ -356,12 +372,11 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     - #### Coding Shiksha Build a Movie Info App in Javascript and Boostrap Using OMDb API used to help with movie-app.js     
       #### Coding Shiksha Youtube - [view](https://www.youtube.com/watch?v=8iuPNq553U0)
 
-## Acknowledgments
-### Content
 
+### Content
    -   All content was written by the developer.
 
-### Acknowledgements
+### Acknowledgments
 
    -	My mentor for continuous helpful feedback.
    -	Tutor support at Code Institute.
