@@ -1,5 +1,9 @@
 /* jshint esversion: 11, jquery: true */
 
+// Coding Shiksha YouTube tutorial helped with some of the code in this app
+// YouTube - link https://www.youtube.com/watch?v=8iuPNq553U0
+// Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
+
 // display movieData in to a html document below the search bar.
 function movieInformationHTML(movieData) {
     if (movieData.length === 0) {
@@ -77,7 +81,7 @@ function fetchMovieInformation() {
                     <img src="assets/loader-image/loader.gif" class="img-fluid" alt="loading..." />
                     </div>`
 
-        ),// gets movie data informaton from Omdbapi.com
+        ),// gets movie data informaton from Omdbapi.com | Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
         $.getJSON("https://www.omdbapi.com/?", {
 
             // apikey function genrated using https://obfuscator.io/
@@ -89,7 +93,7 @@ function fetchMovieInformation() {
                 $.each(data.Search, function (index, value) {
                     if (index < 4) {
 
-                        // search for imdb information from Omdbapi.com
+                        // search for imdb information from Omdbapi.com | Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
                         $.getJSON("https://www.omdbapi.com/?", {
                             apikey: apiKey(),
                                 i: value.imdbID
