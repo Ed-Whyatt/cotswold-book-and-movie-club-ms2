@@ -152,14 +152,17 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 - Testing the Dom research in using Jest [Documentation](https://jestjs.io/docs/tutorial-jquery)
    - Jest Tests done in git enviroment.
    1. Mock HTML file for testing purposes.
-### ![text](documentation/jest-test-images/jest-html-test.png)
+      ### ![text](documentation/jest-test-images/jest-html-test.png)
    2. Jest code used for testing the DOM of the button click function used in the navgation app.
-### ![text](documentation/jest-test-images/jest-test-code.png)
-   3. Get Jest test results by typing npm test in the terminal while in the git enviroment.
+   - ### nav-toggle-app.js 
+     ### ![text](documentation/jest-test-images/jest-start.png)
+   - ### nav.toggle.app.test.js
+     ### ![text](documentation/jest-test-images/jest-test-code.png)
+   4. Get Jest test results by typing npm test in the terminal while in the git enviroment.
                  
           npm test
 
-### ![text](documentation/jest-test-images/jest-test.png)
+      ### ![text](documentation/jest-test-images/jest-test.png)
 
 ## W3C Markup Validator - [Link to site](https://validator.w3.org/#validate_by_uri).
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The most substantial bugs that were fixed are in the bu fixed section below testing in README.md.
@@ -268,10 +271,10 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 #### ![text](/documentation/bug-fix-images/locations-code-before.png) ####![text](/documentation/bug-fix-images/locations-before-fix.png)
 - After fix 
 #### ![text](/documentation/bug-fix-images/locations-code-after.png) ####![text](/documentation/bug-fix-images/locations-after-fix.png)
-3. There was a gap on the gight hand side of every page that was causing the page to show an unwanted horizontal scroll bar.
-- Before fix
+3. There was a gap on the right hand side of every page that was causing the page to show an unwanted horizontal scroll bar.
+- Before fix same code for all pages.
 #### ![text](documentation/bug-fix-images/gap-code-before.png) #### ![text](documentation/bug-fix-images/gap-before.png)
-- After fix
+- After fix same code for all pages.
 #### ![text](documentation/bug-fix-images/gap-code-after.png) #### ![text](documentation/bug-fix-images/gap-after.png)
 4.
 - Before fix
