@@ -340,4 +340,13 @@ The Google Maps Street view image displays with incorrect aspect ratio.
       #### Coding Shiksha Youtube - [view](https://www.youtube.com/watch?v=8iuPNq553U0)
 
 ## Acknowledgments
-- 
+### Content
+
+   -   All content was written by the developer.
+
+### Acknowledgements
+
+   -	My mentor for continuous helpful feedback.
+   -	Tutor support at Code Institute.
+   -	Support from staff at The City of Bristol collage.
+   -	Members on Code Institutes Slack.
