@@ -277,7 +277,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 - After fix same code for all pages.
 #### ![text](documentation/bug-fix-images/gap-code-after.png) #### ![text](documentation/bug-fix-images/gap-after.png)
 4. The discription in the book search results displayed was to long so i oraginally put a slice function in to reduce the size. Crome devlpoment tools showd an error, so i changed the information displayed to the book text snippet instend of the book description in the array of results from the Google Book API.
-- Book search Crome devlpoment tool error. And changed 
+- Book search Crome devlpoment tool error in console.
 #### ![text](documentation/bug-fix-images/slice-bug.png)
 - Code before fix in book-app.js
 #### ![text](documentation/bug-fix-images/slice-old-code.png) 
@@ -285,21 +285,31 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 - Code after fix in book-app.js
 #### ![text](documentation/bug-fix-images/slice-new-code-two.png) 
 #### ![text](documentation/bug-fix-images/slice-new-code-one.png) 
-5. Crome Dev Tool showed a readbility issue with the search bar in both the move and book search pages. Im removed the h1 heading and used the label for the heading.
+5. Crome Dev Tool showed a readbility issue with the search bar in both the move and book search pages. Im removed the h1 heading and used the label for the heading changes are the same for both pages.
 - Crome Dev Tool Readabilty
 #### ![text](documentation/bug-fix-images/form-readabilty.png)
 - Before fix
 #### ![text](documentation/bug-fix-images/search-code-before.png)
 - After fix
 #### ![text](documentation/bug-fix-images/form-code-after.png)
-6. 
+6. Crome Dev Tool showed type error when raeding textSnippet form the Google Book API results array. I Added some Ternary statement withing the html code to be displayed in the book-app.js, so it would have a flallback message when no results are found.
+- Book search Crome devlpoment tool error in console.
+#### ![text](documentation/bug-fix-images/dev-tool-book-before.png)
 - Before fix
-#### ![text]() ####![text]()
+#### ![text](documentation/bug-fix-images/dev-tool-book-code-before.png)
 - After fix
-#### ![text]() ####![text]()
-
+#### ![text](documentation/bug-fix-images/dev-tool-book-after.png)
+7. Crome Dev Tool showed a Get http 404 error from the image in the movie-app.js when the OMDb Api movie poster was called so i added some Ternaty statments to the poster results for a fall back placeholder image to show.
+- Book search Crome devlpoment tool error in console.
+   #### ![text](documentation/bug-fix-images/dev-tool-movie-before.png)
+- Before fix
+   #### ![text](documentation/bug-fix-images/dev-tool-movie-code-before.png)
+- After fix
+   #### ![text](documentation/bug-fix-images/movie-dev-code-after.png)
+8. 
 ## Further testing
-- 
+- family etc
+- diffrent browsers
 
 ### Testing User Stories from User Experience (UX) section
 
