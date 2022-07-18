@@ -62,9 +62,9 @@ function displayMovie(title, poster, plot, imdb, director, genre, viewingRating,
 function fetchMovieInformation() {
     // Empty div elements to start
     $("#loader").html("");
-    $("#movie").html("");
+    $("#movie-data").html("");
 
-    // define contence of the serach value
+    // Define contence of the serach value
     let search = $("#movie").val();
     
 
@@ -109,7 +109,6 @@ function fetchMovieInformation() {
                                     $("#loader").html(
                                         `<h2 class="search-message text-center">No Movie found ${search}</h2>`);
                                 } else {
-                                    console.log(errorResponse);
                                     $("#loader").html(
                                         `<h2 class"search-message text-center">Error: ${errorResponse.responseJSON.message}</h2>`);
                                 }
