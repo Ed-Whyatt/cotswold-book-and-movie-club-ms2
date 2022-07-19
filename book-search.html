@@ -26,19 +26,41 @@
 </head>
 
 <body>
+
+    <!-- Heading -->
+
+    <!-- Navigation menus -->
     <header class="sticky-top container-fluid p-0 m-0">
         <div class="row g-0">
+
+            <!-- Toggle navgation -->
+
             <div class="col-sm-2 d-md-none nav-toggle-color">
                 <div class="nav-toggle">
+
+                    <!-- Button click for nav-toggle-app.js -->
                     <button onclick="buttonClick()" id="nav-toggle-button" class="nav-toggle-btn" aria-label="Toggle navagation list"><span><i
                                 class="fa fa-bars" aria-hidden="true"></i></span></button>
-                    <div id="nav-list"></div>
+                    <div id="nav-list">
+                        <!-- nav toggle menu display -->
+                    </div>
                 </div>
             </div>
+
+             <!-- Toggle navgation end -->
+
+            <!-- Heading title -->
+
             <div class="col-md-12 col-sm-10 heading text-center">
                 <h1 class="heading-title">Cotswold's Book & Movie Club</h1>
             </div>
+
+            <!-- Heading title end-->
+
         </div>
+
+        <!-- Medium screen navgation -->
+
         <div class="row g-0">
             <div class="col d-none d-md-block">
                 <ul id="nav-bar" class="list-inline row">
@@ -66,27 +88,57 @@
             </div>
         </div>
     </header>
+
+     <!-- Medium screen navgation end -->
+
+    <!-- Heading end -->
+
+    <!-- Book search -->
+
     <div class="search-book-image container-fluid">
         <div class="row">
             <div class="col">
                 <div class="book-search-box search-box">
                     <div class="form-box">
                         <label for="book" class="text-center uppercase">Seach for books here</label>
+
+                        <!-- Fetch book Information for book-app.js -->
                         <input type="text" class="form-control" id="book" oninput="fetchBookInformation() ">
-                        <div id="loader"></div>
+
+                        <div id="loader">
+                             <!-- Loader gif and messages displayed here -->
+                        </div>
+
                     </div>
                 </div>
-            </div>
-            <div class="row m-1" id="book-data"></div>
+            </div>  
         </div>
+
+        <div class="row" id="book-data">
+            <!-- Book search information displayed here -->
+        </div>
+
     </div>
+
+    <!-- Book search end -->
+
+    <!-- Footer section -->
+
     <footer class="container-fluid">
         <div class="row footer">
+
+            <!-- Footer about us section -->
+
             <div class="col-sm-6 d-none d-sm-block about-us">
                 <h2 class="uppercase">About Us</h2>
                 <p>We are a small group of volunteers who simply love the book and movie scene. Here we can arrange
                     group meets with follow compulsive viewers and readers.</p>
             </div>
+
+            <!-- Footer about us section end -->
+
+            <!-- Footer social section -->
+
             <div class="col col-sm-6">
                 <div class="row">
                     <div class="col-4 col-sm-12 club-social">
@@ -110,8 +162,13 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Footer socil section end -->
+
         </div>
     </footer>
+
+    <!-- Footer section end -->
 
     <!-- bootstrap 5 https://getbootstrap.com/docs/5.1/getting-started/download/ -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
