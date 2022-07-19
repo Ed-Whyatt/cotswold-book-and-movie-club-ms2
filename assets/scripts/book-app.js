@@ -5,12 +5,12 @@
 // sorce code root tech - https://github.com/zentech/Book-Finder
 
 // display bookData in to a html document below the search bar.
-function displayBookResults(response) { 
-
-    if (response.length === 0) {
-        $("#loader").html(`<div><h2> No Books!</h2></div>`);
+function displayBookResults(response) {
+     
+    if (response.totalItems === 0) {
+        $("#loader").html(`<div><h2 class="search-message text-center"> No Books!</h2></div>`);
     } else {
-            
+    
         // Loop through book results and display in div
         for (var i = 0; i < 2; i++) {
             let item = response.items[i];
