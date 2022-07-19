@@ -1,7 +1,7 @@
 # Testing
 
 ## JEST
-- ### Jest: [https://jestjs.io/](https://jestjs.io/)
+- ### Jest - [Link](https://jestjs.io/)
 1. ### Initialising Jest
 #### In terminal in GitPod.io workspace type:
     npm init
@@ -66,29 +66,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## JSHint - [Link to site](https://jshint.com/)
 JSHint  Services were used to validate every JavaScript page of the project to ensure there were no major syntax errors in the project. The most substantial bugs that were fixed are in the bu fixed section below testing in README.md.
 
-### Book search App
+### Book search app book-app.js
 1.  Initial test.
 ## ![text](documentation/jshint-images/book-app-before.png)
 2. Test after needed bugs fixed.
 ## ![text](documentation/jshint-images/book-app-after.png)
 
-### Maps - [link to documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering)
-1.  Maps test, I decide not to change anything as most of the code is from the documentation.
+### Maps maps.js 
+1.  Maps test, I decide not to change anything as most of the code is from the documentation. [link to documentation](https://developers.google.com/maps/documentation/javascript/marker-clustering).
 ### ![text](documentation/jshint-images/map-app-results.png)
 
-### Movie app
+### Movie app movie-app.js
 1.  Initial test.
 ### ![text](documentation/jshint-images/move-search-app-before.png)
-2. Test after the needed bugs fixed in bugs fixed section below.
+2. Test after the needed bugs fixed the api key is in a seprate app movie-app.api.js.
 ### ![text](documentation/jshint-images/movie-search-after.png)
+3. movie-app-api.js is the function used for the app key
+### ![text](documentation/jshint-images/movie-app-api.png)
 
-### Nav toggle App
+
+### Nav toggle App nav-toggle-app.js
 1.  Initial test.
 ### ![text](documentation/jshint-images/toggle-app-before.png)
 2. Test after the needed bugs fixed in bugs fixed section below.
 ### ![text](documentation/jshint-images/nav-toggle-after.png)
+3. Jest nav.toggle.app.test.js used to test some of the nav toggle app i have not chnged anuy because this is a jest test.
+### ![text](documentation/jshint-images/nav-toggle-jest.png)
 
-### Send Email
+### Send Email send-email.js
 ### ![text](documentation/jshint-images/email-results.png)
 
 ## Google Chrome Developer Tools
