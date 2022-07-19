@@ -125,14 +125,104 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
     - Am I Responsive Design was used for the responsive image in Readme.
 1. [Preloaders at icons8.com](https://icons8.com/preloaders/en/search/bar)
     - Preloaders was used for the search loading bar in the book and movie search pages.
+1. [obfuscator](https://obfuscator.io/)
+   - The obfuscator website was used to create a hidden API key in the movie search app.
 
-### API Application Programming Interfaces used:
- 1. [Google Maps API](https://developers.google.com/maps/documentation/javascript/marker-clustering?hl=en#maps_marker_clustering-javascript)
+### API Application Programming Interfaces 
+***
+#### API's used:
+ 1. [Google Maps API](https://developers.google.com/maps)
     - Google Maps API is used for the map and the map clusters in the events map section of the home page. 
-1. [Google Books API](https://developers.google.com/books/docs/v1/using#PerformingSearch)
+1. [Google Books API](https://developers.google.com/books)
     - Google Books API is used for the book seach app in the book search page.
 1. [OMDb API](http://www.omdbapi.com/)
     - OMDb API is used for the book search app in the book search page.
+1. [Email.js](https://www.emailjs.com)
+    - Email.js is used to recive contact requests in the contact us page.
+1. [https://jquery.com/](https://jquery.com/)
+    - jquary is used on the the book search app book-app.js and movie search app movie-app.js.
+
+### API keys: 
+You will need you own api keys to use the APIs correctly.
+#### Google Maps key 
+***
+- The Google Maps key is located on the bottom of the home page index.html - The google maps api key documntation can be found at [link to documtation](https://developers.google.com/maps/documentation/javascript/get-api-key).
+
+#### Creating an API key
+
+1. Go to the Google Maps Platform > Credentials page [link to the Credentials page](https://console.cloud.google.com/projectselector2/google/maps-apis/credentials).
+2. On the Credentials page, click Create credentials > API key.
+The API key created dialog displays your newly created API key.
+3. Click Close.
+The new API key is listed on the Credentials page under API keys.
+(Remember to restrict the API key before using it in production.)
+4. Go to the bottom of the index.html page and add your new key in.
+- You must include an API key with every Maps JavaScript API request. In the following example, replace YOUR_API_KEY with your API key.
+    ### ``` <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script> ```
+
+
+#### Restricting API keys
+1. Go to the Google Maps Platform > Credentials page [link to the Credentials page](https://console.cloud.google.com/projectselector2/google/maps-apis/credentials).
+2. Select the API key that you want to set a restriction on. The API key property page appears.
+3. Under Key restrictions, set the following restrictions:
+    - Application restrictions:
+    1. To accept requests from the list of website that you supply, select HTTP referrers (web sites) from the list of Application restrictions.
+    2. Specify one or more referrer web sites. For example, *.google.com accepts all sites ending in google.com, such as https://developers.google.com.
+    Note: file:// referers need a special representation to be added to the key restriction. The "file://" part should be replaced with "__file_url__" before being added to the key restriction. For example, "file:///path/to/" should be formatted as "__file_url__//path/to/*". After enabling file:// referers, it is recommended you regularly check your usage, to make sure it matches your expectations.
+    -  API restrictions:
+    1. Click Restrict key.
+    2. Select Maps JavaScript API from Select APIs dropdown. If the Maps    JavaScript API is not listed, you need to enable it.
+    3. If your project uses Places Library, also select Places API. Similarly, if your project uses other services in the JavaScript API (Directions Service, Distance Matrix Service, Elevation Service, and/or Geocoding Service), you must also enable and select the corresponding API in this list.
+4. To finalize your changes, click Save.
+
+5. Adding the API key to your request.
+   - You must include an API key with every Maps JavaScript API request. In the following example, replace YOUR_API_KEY with your API key.
+        #### ``` <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script> ```
+***
+
+#### Movie OMDB API
+*** 
+- The Movie OMDB API key is located in the movie-app.js file - The Movie OMDB API key documtation can be found at [link to documtation](http://www.omdbapi.com/).
+
+#### Creating an API key
+
+1. Go to The Open Movie Database page [link to page](http://www.omdbapi.com/) and click on API key [link to API page](http://www.omdbapi.com/apikey.aspx).
+2. On the API page fill in your details in the form and click submit.
+3. You will be e-mailed your key.
+4. Go to the apikey in the movie-app.js file and replace the ```apiKey()``` with your key.
+```javascript
+           $.getJSON("https://www.omdbapi.com/?", {
+            apikey: YOUR KEY HERE,
+            s: search
+        }, function (data) {
+            if (data.Search !== undefined) {
+                $.each(data.Search, function (index, value) {
+                    if (index < 4) {
+                        $.getJSON("https://www.omdbapi.com/?", {
+                            apikey: YOUR KEY HERE,
+                                i: value.imdbID
+                            },
+```
+***
+### EMail.js
+*** 
+ The MEMail.js key is located in the send-email.js file - The EMail.js key documtation can be found at [link to documtation](https://www.emailjs.com/docs/):
+
+ #### Creating an API key
+
+1. Go to the Eamil.js page [link to page](https://dashboard.emailjs.com/sign-up) fill out the sign up form and click on sign up.
+2. Once signed up log into your account to use the email you will need two keys the public key and email service id.
+3. To get the public key click on accout in the Email.js dashboard [link to account dashbord](https://dashboard.emailjs.com/admin/account) then click on genral and the public key is under API keys.
+4. To get the service key click on email services in the Email.js dashboard [link to services dashbord](https://dashboard.emailjs.com/admin). Click on add new service and add the email you want the messages to be sent to.
+5. Then create an email template by clicking on email templates in Email.ja dashbourd [link to email templates](https://dashboard.emailjs.com/admin/templates)
+6. Within the email template put the email you used in step four and put Cotswold_Club it the Form Name feild.
+7. Now in the send-email.js file replace YOUR_SERVICE_KEY with your service key in step 3 and replace PUBLIC_KEY with your public key in step 4.
+``` javascript 
+emailjs.send("YOUR_SERVICE_KEY", "Cotswold_Club", templateParams, "PUBLIC_KEY")
+```
+
+#### Google Books and jquary 
+- You do not need a key for google books or jquary.
 
 ## Testing
 ***
