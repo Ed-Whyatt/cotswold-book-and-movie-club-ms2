@@ -84,20 +84,48 @@ Am I Responsive has been used for the responsie image at the top of README.md yo
 ## Interactive elements. NO LINKS YET !!!!!!
 - Interactive elements.
 1. Navagation has links to Home, Search for a Movie, Search for abook and Events.
-![text](#) 
-2. Intractiove navgation menu when viewd on small devices.
-![text](#) ![text](#)
-3. Footer with links to social media.
-4. Footer on small devices.
-5. Events map.
-6. Book search.
-7. Book search results.
-8. Book search link opens in new window.
-9. Movie search.
-10. contact us page contact request form sends email when submitted.
+   - Navigation
+   ### ![text](documentation/introactive-element-images/nav-menu.png)
+   - Navgation when viewed om small devices
+   ### ![text](documentation/introactive-element-images/nav-toggle.png)
+
+2. Footer with about us and external links to social media.
+   ### ![text](documentation/introactive-element-images/footer.png)
+
+3. Footer on small devices.
+   ### ![text](documentation/introactive-element-images/footer-small.png)
+
+4. Events map with zoom in & out, clickable clustermarkers for events and street view.
+   ### ![text](documentation/introactive-element-images/event-map.png)
+
+5. Book search on Search for a Book page.
+   ### ![text](documentation/introactive-element-images/book-search.png)
+
+6. Book search results.
+   ### ![text](documentation/introactive-element-images/book-results.png)
+
+7. Book search link opens in new window.
+   ### ![text](documentation/introactive-element-images/book-button.png)
+
+8. Movie search on Search for a Movie page.
+   ### ![text](documentation/introactive-element-images/movie-search.png)
+
+9. Movie search results.
+   ### ![text](documentation/introactive-element-images/movie-results.png)
+
+10. contact us page contact request form sends email when submitted and displays result.
+    ### ![text](documentation/introactive-element-images/contact.png)
+    - Message sent
+    ### ![text](documentation/introactive-element-images/email-sent.png)
+    - Message error
+    ### ![text](documentation/introactive-element-images/email-error.png)
 - Other features include
-1. About us section on home page.
+ 1. About us section on home page.
+    ### ![text](documentation/introactive-element-images/about-us.png)
+
+
 2. Events section on home page.
+   ### ![text](documentation/introactive-element-images/events.png)
 
 ## Technologies Used
 ### Languages Used
