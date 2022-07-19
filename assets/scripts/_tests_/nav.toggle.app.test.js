@@ -1,3 +1,4 @@
+/* jshint esversion: 11*/
 /**
  * @jest-environment jsdom
  */
@@ -15,11 +16,11 @@ describe("DOM tests", () => {
     // test the click function works
     test("Expects content to change", () => {
         buttonClick();
-        document.getElementById("nav-list").click()
+        document.getElementById("nav-list").click();
         expect(document.getElementById("nav-list").innerHTML).toEqual("You Clicked");
     });
     // test the number of div elements on page
     test("div should exist", () => {
         expect(document.getElementsByTagName("div").length).toBe(2);
-    })
+    });
 });
