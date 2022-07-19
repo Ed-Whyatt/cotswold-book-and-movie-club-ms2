@@ -130,3 +130,79 @@ Some tests that lighthouse testing revealed are external and i have not changed 
 2. 
 The Google Maps Street view image displays with incorrect aspect ratio.
 ### ![text](documentation/crome-lighthouse-images/ligthhouse-google-maps.png)
+
+## Bugs Fixed
+1. Color contrast
+### The colors chosen for the Home and Search for Movie navgation button where of to low contract and have been changed.
+- Before fix:
+#### ![text](/documentation/bug-fix-images/home-color-before.png) ![text](/documentation/bug-fix-images/movie-before.png)
+- After fix:
+#### ![text](/documentation/bug-fix-images/home-after.png) ![text](/documentation/bug-fix-images/movie-after.png)
+- Navgation colors after fix:
+#### ![text](/documentation/bug-fix-images/nav-colors-after.png)
+2. The locations in the up comming events section where flowing out of the container when viewed on an extra small screen on all events. I put the locations section in its own collum to prevent this.
+- Before fix
+#### ![text](/documentation/bug-fix-images/locations-code-before.png) ![text](/documentation/bug-fix-images/locations-before-fix.png)
+- After fix 
+#### ![text](/documentation/bug-fix-images/locations-code-after.png) ![text](/documentation/bug-fix-images/locations-after-fix.png)
+3. There was a gap on the right hand side of every page that was causing the page to show an unwanted horizontal scroll bar.
+- Before fix same code for all pages.
+#### ![text](documentation/bug-fix-images/gap-code-before.png) ![text](documentation/bug-fix-images/gap-before.png)
+- After fix same code for all pages.
+#### ![text](documentation/bug-fix-images/gap-code-after.png) ![text](documentation/bug-fix-images/gap-after.png)
+4. The discription in the book search results displayed was to long so i oraginally put a slice function in to reduce the size. Crome devlpoment tools showd an error, so i changed the information displayed to the book text snippet instend of the book description in the array of results from the Google Book API.
+- Book search Crome devlpoment tool error in console.
+#### ![text](documentation/bug-fix-images/slice-bug.png)
+- Code before fix in book-app.js
+#### ![text](documentation/bug-fix-images/slice-old-code.png) 
+#### ![text](documentation/bug-fix-images/java-slice-code-before.png)
+- Code after fix in book-app.js
+#### ![text](documentation/bug-fix-images/slice-new-code-two.png) 
+#### ![text](documentation/bug-fix-images/slice-new-code-one.png) 
+5. Crome Dev Tool showed a readbility issue with the search bar in both the movie and book search pages. Im removed the h1 heading and used the label for the heading changes are the same for both pages.
+- Crome Dev Tool Readabilty
+#### ![text](documentation/bug-fix-images/form-readabilty.png)
+- Before fix
+#### ![text](documentation/bug-fix-images/search-code-before.png)
+- After fix
+#### ![text](documentation/bug-fix-images/form-code-after.png)
+6. Crome Dev Tool showed type error when raeding textSnippet form the Google Book API results array. I Added some Ternary statement withing the html code to be displayed in the book-app.js, so it would have a flallback message when no results are found.
+- Book search Crome devlpoment tool error in console.
+#### ![text](documentation/bug-fix-images/dev-tool-book-before.png)
+- Before fix
+#### ![text](documentation/bug-fix-images/dev-tool-book-code-before.png)
+- After fix
+#### ![text](documentation/bug-fix-images/dev-tool-book-after.png)
+7. Crome Dev Tool showed a Get http 404 error from the image in the movie-app.js when the OMDb Api movie poster was called so i added some Ternaty statments to the poster results for a fall back placeholder image to show.
+- Book search Crome devlpoment tool error in console.
+   #### ![text](documentation/bug-fix-images/dev-tool-movie-before.png)
+- Before fix
+   #### ![text](documentation/bug-fix-images/dev-tool-movie-code-before.png)
+- After fix
+   #### ![text](documentation/bug-fix-images/movie-dev-code-after.png)
+8. The heading and footer took up too much realastate on the page in small devie view so i changed the html with bootstrap collums and css useing media quaries.
+- Small view and css before fix
+  #### ![text](documentation/bug-fix-images/header-foorter-before.png) ![text](documentation/bug-fix-images/heading-css-before.png)
+- Html Changes
+  #### ![text](documentation/bug-fix-images/footer-code-changed.png)
+- Small view and css that media quaries will change at max width 500px.
+  #### ![text](documentation/bug-fix-images/header-footer-after.png) ![text](documentation/bug-fix-images/heading-media-css.png)
+  
+  ### Further Testing
+
+-   The website has been tested on such browsers as: 
+    -  Google Chrome [view](documentation/browser-screenshots/crome.pngchrome.png)
+    -  Microsoft Edge [view](documentation/browser-screenshots/edge.pngedge.png)
+    -  Firefox [view](documentation/browser-screenshots/firefox.pngfirefox.png)
+-   The website was viewed on such devices as: 
+     - Desktop [view](documentation/browser-screenshots/crome.png)
+     - Laptop [view](#) NO LINK YET !!! !!!
+     - Samsung Glaxy note 10 [view](documentation/device-screenshots/note-ten-chrome.jpgnote-ten.jpg)
+     - Samsung tablet 3 [view](documentation/device-screenshots/tab-three.png)
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website has been tested by friends and family members to review the site and documentation to point out any bugs and/ or user experience issues.
+
+### Testing User Stories from User Experience (UX) section
+- movie display multibal movies
+## Known bugs
+-  ?
