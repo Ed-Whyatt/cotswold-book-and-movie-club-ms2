@@ -269,14 +269,14 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 #### ![text](/documentation/bug-fix-images/nav-colors-after.png)
 2. The locations in the up comming events section where flowing out of the container when viewed on an extra small screen on all events. I put the locations section in its own collum to prevent this.
 - Before fix
-#### ![text](/documentation/bug-fix-images/locations-code-before.png) ####![text](/documentation/bug-fix-images/locations-before-fix.png)
+#### ![text](/documentation/bug-fix-images/locations-code-before.png) ![text](/documentation/bug-fix-images/locations-before-fix.png)
 - After fix 
-#### ![text](/documentation/bug-fix-images/locations-code-after.png) ####![text](/documentation/bug-fix-images/locations-after-fix.png)
+#### ![text](/documentation/bug-fix-images/locations-code-after.png) ![text](/documentation/bug-fix-images/locations-after-fix.png)
 3. There was a gap on the right hand side of every page that was causing the page to show an unwanted horizontal scroll bar.
 - Before fix same code for all pages.
-#### ![text](documentation/bug-fix-images/gap-code-before.png) #### ![text](documentation/bug-fix-images/gap-before.png)
+#### ![text](documentation/bug-fix-images/gap-code-before.png) ![text](documentation/bug-fix-images/gap-before.png)
 - After fix same code for all pages.
-#### ![text](documentation/bug-fix-images/gap-code-after.png) #### ![text](documentation/bug-fix-images/gap-after.png)
+#### ![text](documentation/bug-fix-images/gap-code-after.png) ![text](documentation/bug-fix-images/gap-after.png)
 4. The discription in the book search results displayed was to long so i oraginally put a slice function in to reduce the size. Crome devlpoment tools showd an error, so i changed the information displayed to the book text snippet instend of the book description in the array of results from the Google Book API.
 - Book search Crome devlpoment tool error in console.
 #### ![text](documentation/bug-fix-images/slice-bug.png)
@@ -341,6 +341,53 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     #### ![text](documentation/bug-fix-images/movie-single-display.png) ![text](documentation/bug-fix-images/movie-single-display-code.png)
     - After change
     #### ![twxt](documentation/bug-fix-images/movie-multi.png) ![text](documentation/bug-fix-images/movie-data-after.png) ![text](documentation/bug-fix-images/movie-data-after-one.png) 
+
+## Deployment
+***
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Main Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2/deployments/activity_log?environment=github-pages) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2.git)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2)
+2. Under the repository name, click "<> Code" and click the second "code" dropdown menu. 
+3. To clone the repository using HTTPS, click the second "code ▼" dropdown menu, copy the link [HTTPS link](https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2.git).
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+$ git `clone https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2.git`
+
+7. Press Enter. Your local clone will be created.
+
+```
+git clone https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2.git
+Cloning into CI-Clone...
+remote: Counting objects: 10, done.
+remote: Compressing objects: 100% (8/8), done.
+remove: Total 10 (delta 1), reused 10 (delta 1)
+Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ed-Whyatt/cotswold-book-and-movie-club-ms2)
 
 
 ## Credits
