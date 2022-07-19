@@ -191,6 +191,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   ### contact Us
 1. Initial test no bugs to fix after test was done.
     ### ![text](documentation/markup-validator-images/contact-html-test.png)
+
+-   ### Toggle app test html page for testing with jest toggle_app-test.html
+1. ### ![text](documentation/markup-validator-images/jest-test-html.png)
+
 -   ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 2. Test after the needed bugs fixed.
     ### ![text](documentation/markup-validator-images/ws3-css-after.png)
