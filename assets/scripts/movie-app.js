@@ -6,26 +6,25 @@
 
 // display movieData in to a html document below the search bar.
 function movieInformationHTML(movieData) {
-    if (movieData.length === 0) {
-        $("#loader").html(`<div><h2> No movies!</h2></div>`);
-    } else {
-        // Items to be displayed in display movie function
-        let moviePlaceHolder = "assets/images/movie-paceholder.png"
-        let title = movieData.Title;
-        let poster = movieData.Poster === "N/A" ? moviePlaceHolder : movieData.Poster;
-        let plot = movieData.Plot;
-        let imdb = movieData.imdbRating;
-        let director = movieData.Director;
-        let genre = movieData.Genre;
-        let viewingRating = movieData.Rated;
-        let resleased = movieData.Released;
 
-        // Append results to a div to display results and pass to dispplay movie.
-        $("#movie-data").append(`<div class="col-md-6 col-lg-4">` + displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased ) + `</div>`);
+    // Items to be displayed in display movie function
+    let moviePlaceHolder = "assets/images/movie-paceholder.png";
+    let title = movieData.Title;
+    let poster = movieData.Poster === "N/A" ? moviePlaceHolder : movieData.Poster;
+    let plot = movieData.Plot;
+    let imdb = movieData.imdbRating;
+    let director = movieData.Director;
+    let genre = movieData.Genre;
+    let viewingRating = movieData.Rated;
+    let resleased = movieData.Released;
+    // let myError = movieData.Response;
+    // console.log(myError)
 
-        // Display message when a Movie is Found!!
-        $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`);
-    }
+    // Append results to a div to display results and pass to dispplay movie.
+    $("#movie-data").append(`<div class="col-md-6 col-lg-4">` + displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased) + `</div>`);
+
+    // Display message when a Movie is Found!!
+    $("#loader").html(`<h2 class="search-message text-center">Movie Found!!!</h2>`);
 }
 
 // Display html results inside apended div
@@ -66,57 +65,60 @@ function fetchMovieInformation() {
 
     // Define contence of the serach value
     let search = $("#movie").val();
-    
 
-// if the search box is empty display message under search bar
+
+    // if the search box is empty display message under search bar
     if (!search) {
         $("#loader").html(`<h2 class="search-message text-center">
-        Pease Search For A Movie!!</h2>`)
+        Pease Search For A Movie!!</h2>`);
         return;
     }
 
-     // loader image while searching for a movie shown under search bar from https://icons8.com/preloaders/en/search/
+    // loader image while searching for a movie shown under search bar from https://icons8.com/preloaders/en/search/
     $("#loader").html(
-            `<div id="book-loader">
+        `<div id="book-loader">
                     <img src="assets/loader-image/loader.gif" class="img-fluid" alt="loading..." />
-                    </div>`
+                    </div>`);
+    // gets movie data informaton from Omdbapi.com | Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
+    $.getJSON("https://www.omdbapi.com/?", {
 
-        ),// gets movie data informaton from Omdbapi.com | Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
-        $.getJSON("https://www.omdbapi.com/?", {
+        // apikey function genrated using https://obfuscator.io/
+        apikey: apiKey(),
+        s: search
+    }, function (data) {
+        // response for if no movies are found
+        if (data.Response === 'False') {
+            $("#loader").html(`<div><h2 class="search-message text-center"> No movies called  ${search} . Try again !!!</h2></div>`);
 
-            // apikey function genrated using https://obfuscator.io/
-            apikey: apiKey(),
-            s: search
-        }, function (data) {
             // filter out undefined data
-            if (data.Search !== undefined) {
-                $.each(data.Search, function (index, value) {
-                    if (index < 4) {
+        } else if (data.Search !== undefined) {
+            $.each(data.Search, function (index, value) {
+                if (index < 4) {
 
-                        // search for imdb information from Omdbapi.com | Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
-                        $.getJSON("https://www.omdbapi.com/?", {
+                    // search for imdb information from Omdbapi.com | Coding Shiksha sorce code - https://codingshiksha.com/javascript/build-a-omdb-api-movie-info-finder-web-app-in-javascript-using-boostrap-4-full-project-for-beginners/
+                    $.getJSON("https://www.omdbapi.com/?", {
                             apikey: apiKey(),
-                                i: value.imdbID
-                            },
-                            function (movieData) {
+                            i: value.imdbID
+                        },
+                        function (movieData) {
 
-                                // pass movie data to MovieInformationHTML function
-                                (movieInformationHTML(movieData));
-                                
-                            },// if an error occurs then show error response under search bar
-                            function error(errorResponse) {
-                                if (errorResponse.status === 404) {
-                                    $("#loader").html(
-                                        `<h2 class="search-message text-center">No Movie found ${search}</h2>`);
-                                } else {
-                                    $("#loader").html(
-                                        `<h2 class"search-message text-center">Error: ${errorResponse.responseJSON.message}</h2>`);
-                                }
-                            });
-                    }
-                });
-            }
-        });
+                            // pass movie data to MovieInformationHTML function
+                            (movieInformationHTML(movieData));
+
+                        }, // if an error occurs then show error response under search bar
+                        function error(errorResponse) {
+                            if (errorResponse.status === 404) {
+                                $("#loader").html(
+                                    `<h2 class="search-message text-center">Somthing went wrong try again !!! </h2>`);
+                            } else {
+                                $("#loader").html(
+                                    `<h2 class"search-message text-center">Error: ${errorResponse.responseJSON.message}</h2>`);
+                            }
+                        });
+                }
+            });
+        }
+    });
 }
 
 // function to get the html document ready for the app to start
