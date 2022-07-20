@@ -17,8 +17,6 @@ function movieInformationHTML(movieData) {
     let genre = movieData.Genre;
     let viewingRating = movieData.Rated;
     let resleased = movieData.Released;
-    // let myError = movieData.Response;
-    // console.log(myError)
 
     // Append results to a div to display results and pass to dispplay movie.
     $("#movie-data").append(`<div class="col-md-6 col-lg-4">` + displayMovie(title, poster, plot, imdb, director, genre, viewingRating, resleased) + `</div>`);
