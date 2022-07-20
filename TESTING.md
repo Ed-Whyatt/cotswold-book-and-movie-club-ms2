@@ -195,7 +195,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     -  Firefox [view](documentation/browser-screenshots/firefox.pngfirefox.png)
 -   The website was viewed on such devices as: 
      - Desktop [view](documentation/browser-screenshots/crome.png)
-     - Laptop [view](#) NO LINK YET !!! !!!
+     - Laptop [view](/documentation/device-screenshots/laptop.png)
      - Samsung Galaxy note 10 [view](documentation/device-screenshots/note-ten-chrome.jpgnote-ten.jpg)
      - Samsung tablet 3 [view](documentation/device-screenshots/tab-three.png)
 -   A large amount of testing was done to ensure that all pages were linking correctly.
@@ -203,6 +203,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 
 ### Know bugs
 
+- The navigation menu Seach for a Movie and Search for a Book text overlaps the page when the CSS.Hover effet happens on mouse over in screen sizes between 840px and 990px screen sizes.
 
 ### Testing User Stories from User Experience (UX) section in README.md
 
