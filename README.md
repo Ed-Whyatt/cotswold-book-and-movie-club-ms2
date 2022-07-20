@@ -15,14 +15,12 @@
     1. As a First Time User, I want to see information on the events and when the next event is on and where.
     2. As a First Time User, I want to navigate the website easily and interact with the content.
     3. As a First Time User, I want to easily navigate to make an enquiry.
-    4. As a First Time User, I want to sign up to the newsletter.
-    5. As a First Time User, I want to easily navigate to the movie search page.
-    6. As a First Time User, I want to easily navigate to the book search page.
+    4. As a First Time User, I want to easily navigate to the movie search page.
+    5. As a First Time User, I want to easily navigate to the book search page.
 - ### Returning user goals
-    1. As a Returning User, I want to see if all the upcoming book and movie events
+    1. As a Returning User, I want to see all the new and upcoming book and movie events.
     2. As a Returning User, I want to send a contact message.
     3. As a Returning User, I want to navigate to the club’s social media.
-    4. As a Returning User, I want to see book of the month.
 - ### Frequent user goals
     1. As a Frequent user, I want to easily search for a book.
     2. As a Frequent user, I want to easily sech for a movie.
@@ -34,20 +32,20 @@
 - ### This website is designed for users who are interesting in joining the events of the book and movie club, they will also be able to search for books, movies and see where the events take place on Google maps. I want to make this website book and movie orientated using related images and bright colours in the navigation bar.
 ## Colour Scheme
 
-- ### [Color Mind](http://colormind.io/) : Colormind has been used to aid the desision the colour sceme for the project.
+- ### [Color Mind](http://colormind.io/) : Colormind has been used to aid the decision the colour scheme for the project.
 
 ### The main colours used in this website are:
-- #### Navgation buttons
-#### The five navgation buttons Home, Movie Search, Book Search, Contact Us and events: 
+- #### Navigation buttons
+#### The five navigation buttons Home, Movie Search, Book Search, Contact Us and events: 
 ### ![Text](/documentation/color-sceme-images/buttons.png)
-- #### The main colors used for text and backgrouds:
+- #### The main colours used for text and backgrounds:
 ### ![Text](/documentation/color-sceme-images/text-background-color.png)
 
 ## Typography:
 - ### The fonts use throughout this website are:
 1. Gentium Book Basic with a fall back of sans serif.
 ## Imagery
-###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and move theatre inspiring images. The images for Book and Movie serach pages are provided by the api libaries.
+###  Imagery is very important to give the user instant understating of what to expect to gain from this website. I have used book and movie theatre inspiring images. The images for Book and Movie search pages are provided by the API libraries.
 - ### The main images are:
 1. Main page Hero image of a [green apple on a book](assets/images/book-apple-image.png) from [https://www.stockvault.net](https://www.stockvault.net/photo/128129/book-and-apple). 
 2. Book search page image of [swirling books ](assets/images/search-book-image.png) link to image at [https://pixabay.com](https://pixabay.com/photos/book-notebook-learning-learn-1171564/).
@@ -78,54 +76,54 @@
 3. Small Movie App Page Wireframe - [view](documentation/wireframes/club-small-movie-wf.png)
 4. Small Contact Page Wireframe - [view](documentation/wireframes/club-small-contact-wf.png)
 # Features
-Am I Responsive has been used for the responsie image at the top of README.md you can view there website below and interatct with this project on each device.
+Am I Responsive has been used for the responsive image at the top of README.md you can view there website below and interact with this project on each device.
 -   ### Responsive on all devices - [view](https://ui.dev/amiresponsive?url=https://ed-whyatt.github.io/cotswold-book-and-movie-club-ms2/)
 
-## Interactive elements. NO LINKS YET !!!!!!
+## Interactive elements.
 - Interactive elements.
-1. Navagation has links to Home, Search for a Movie, Search for abook and Events.
+1. Navigation has links to Home, Search for a Movie, Search for a book and Events.
    - Navigation
-   ### ![text](documentation/introactive-element-images/nav-menu.png)
-   - Navgation when viewed om small devices
-   ### ![text](documentation/introactive-element-images/nav-toggle.png)
+   ### ![text](documentation/interactive-element-images/nav-menu.png)
+   - Navigation when viewed om small devices
+   ### ![text](documentation/interactive-element-images/nav-toggle.png)
 
 2. Footer with about us and external links to social media.
-   ### ![text](documentation/introactive-element-images/footer.png)
+   ### ![text](documentation/interactive-element-images/footer.png)
 
 3. Footer on small devices.
-   ### ![text](documentation/introactive-element-images/footer-small.png)
+   ### ![text](documentation/interactive-element-images/footer-small.png)
 
-4. Events map with zoom in & out, clickable clustermarkers for events and street view.
-   ### ![text](documentation/introactive-element-images/event-map.png)
+4. Events map with zoom in & out, clickable cluster markers for events and street view.
+   ### ![text](documentation/interactive-element-images/event-map.png)
 
 5. Book search on Search for a Book page.
-   ### ![text](documentation/introactive-element-images/book-search.png)
+   ### ![text](documentation/interactive-element-images/book-search.png)
 
 6. Book search results.
-   ### ![text](documentation/introactive-element-images/book-results.png)
+   ### ![text](documentation/interactive-element-images/book-results.png)
 
 7. Book search link opens in new window.
-   ### ![text](documentation/introactive-element-images/book-button.png)
+   ### ![text](documentation/interactive-element-images/book-button.png)
 
 8. Movie search on Search for a Movie page.
-   ### ![text](documentation/introactive-element-images/movie-search.png)
+   ### ![text](documentation/interactive-element-images/movie-search.png)
 
 9. Movie search results.
-   ### ![text](documentation/introactive-element-images/movie-results.png)
+   ### ![text](documentation/interactive-element-images/movie-results.png)
 
 10. contact us page contact request form sends email when submitted and displays result.
-    ### ![text](documentation/introactive-element-images/contact.png)
+    ### ![text](documentation/interactive-element-images/contact.png)
     - Message sent
-    ### ![text](documentation/introactive-element-images/email-sent.png)
+    ### ![text](documentation/interactive-element-images/email-sent.png)
     - Message error
-    ### ![text](documentation/introactive-element-images/email-error.png)
+    ### ![text](documentation/interactive-element-images/email-error.png)
 - Other features include
  1. About us section on home page.
-    ### ![text](documentation/introactive-element-images/about-us.png)
-
+    ### ![text](documentation/interactive-element-images/about-us.png)
 
 2. Events section on home page.
-   ### ![text](documentation/introactive-element-images/events.png)
+   ### ![text](documentation/interactive-element-images/events.png)
+
 
 ## Technologies Used
 ### Languages Used
