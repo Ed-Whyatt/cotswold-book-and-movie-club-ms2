@@ -4,6 +4,7 @@
 function buttonClick() {
     let navList = document.getElementById("nav-list").innerHTML;
     let emptyList = document.getElementById("nav-list").innerHTML = "";
+    
     if (navList === "") {
         loadList ();
     } else {
@@ -41,3 +42,4 @@ function loadList () {
     let list = document.getElementById("nav-list").innerHTML = htmlList;
     return list;
 }
+$(document).ready(buttonClick);
