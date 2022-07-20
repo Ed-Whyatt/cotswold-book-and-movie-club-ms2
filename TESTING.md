@@ -214,7 +214,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     ### ![Text](/documentation/interactive-element-images/nav-menu.png) 
       
     - ### On a small device there is a three-bar button that opens the navigation menu witch will take them to the events page.
-     ### ![Text](/documentation/interactive-element-images/nav-toggle.png)
+    ### ![Text](/documentation/interactive-element-images/nav-toggle.png)
 
     - Alternatively, they can scroll down the page to the events section.
     ### ![Text](/documentation/interactive-element-images/event-map.png) 
@@ -223,11 +223,11 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     2. As a First Time User, I want to navigate the website easily and interact with the content.
 
     - The user has lots of options to easily navigate to the search for a movie, search for a book, contact us pages and events section from the navigation on all pages. Witch becomes a drop-down menu in small screen view.
-    ![Text](/documentation/interactive-element-images/nav-menu.png)
-    ![Text](/documentation/interactive-element-images/nav-toggle.png) 
+    ### ![Text](/documentation/interactive-element-images/nav-menu.png)
+    ### ![Text](/documentation/interactive-element-images/nav-toggle.png) 
 
     - On the home page there is a google maps map with clusters of the locations of the events which can be clicked on to zoom in and out.
-     ![Text](/documentation/interactive-element-images/events.png)
+    ### ![Text](/documentation/interactive-element-images/events.png)
       ![Text](/documentation/interactive-element-images/event-map.png) 
 
     - On the Movie search page, the user can search for a movie and view the contents displayed.
@@ -236,49 +236,49 @@ The Google Maps Street view image displays with incorrect aspect ratio.
 
     - On the Book search page, the user can search for a and book, view the content displayed and click on a read book button that takes them to an external page with the book on it.
     ### ![text](documentation/interactive-element-images/book-search.png)
-    ![text](documentation/interactive-element-images/book-results.png)
-    ![text](documentation/interactive-element-images/book-button.png)
+    ### ![text](documentation/interactive-element-images/book-results.png)
+    ### ![text](documentation/interactive-element-images/book-button.png)
 
     - On the contact page the user can fill in the form with their information and query that will be submitted to an external email. There is also a message displayed with the send response of either sent of error on it.
-    ![text](documentation/interactive-element-images/contact.png)
+    ### ![text](documentation/interactive-element-images/contact.png)
     - Message sent
-    ![text](documentation/interactive-element-images/email-sent.png)
+    ### ![text](documentation/interactive-element-images/email-sent.png)
     - Message error
-    ![text](documentation/interactive-element-images/email-error.png)
+    ### ![text](documentation/interactive-element-images/email-error.png)
 
     3. As a First Time User, I want to easily navigate to make an enquiry.
     - A user can easily navigate to the contact us page to fill in the form to make an inquiry by using the navigation bar or button on a small screen.
-     ![Text](/documentation/interactive-element-images/nav-menu.png)
-     ![Text](/documentation/interactive-element-images/nav-toggle.png) 
-     ![text](documentation/interactive-element-images/contact.png)
+     ### ![Text](/documentation/interactive-element-images/nav-menu.png)
+     ### ![Text](/documentation/interactive-element-images/nav-toggle.png) 
+     ### ![text](documentation/interactive-element-images/contact.png)
 
     4. As a First Time User, I want to easily navigate to the movie search page.
     - A user can easily navigate to the movie search page buy using the navigation bar or button on a small screen from all pages.
-    ![Text](/documentation/interactive-element-images/nav-menu.png)
-     ![Text](/documentation/interactive-element-images/nav-toggle.png) 
+     ### ![Text](/documentation/interactive-element-images/nav-menu.png)
+     ### ![Text](/documentation/interactive-element-images/nav-toggle.png) 
 
     5. As a First Time User, I want to easily navigate to the book search page.
      - A user can easily navigate to the movie search page buy using the navigation bar or button on a small screen from all pages.
-     ![Text](/documentation/interactive-element-images/nav-menu.png)
+     ### ![Text](/documentation/interactive-element-images/nav-menu.png)
      ![Text](/documentation/interactive-element-images/nav-toggle.png) 
 
 - ### Returning user goals
     1. As a Returning User, I want to see all the upcoming book and movie events.
     
     - A returning user can easily navigate to the upcoming events in the events section of the home page and see when they are on by using the navigation menus.
-    ![text](documentation/interactive-element-images/about-us.png)
+    ### ![text](documentation/interactive-element-images/about-us.png)
 
     - A returning can easily see the upcoming events locations by navigating to the events maps section and using the interactive map clusters.
-    ![text](documentation/interactive-element-images/event-map.png)
+    ### ![text](documentation/interactive-element-images/event-map.png)
 
     2. As a Returning User, I want to send a contact message.
 
     - A returning user can easily navigate to the contact form on the contact us page.
-    ![text](documentation/interactive-element-images/nav-menu.png)
+    ### ![text](documentation/interactive-element-images/nav-menu.png)
     ![text](documentation/interactive-element-images/nav-toggle.png)
 
     - A returning user can easily see were to fill in the form and what button to click to send.
-    ![text](documentation/interactive-element-images/contact.png)
+    ### ![text](documentation/interactive-element-images/contact.png)
 
     - A returning user can easily se a response message when the form has been submitted clear stating if sent or there was an error.
     - Message sent
@@ -289,7 +289,7 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     3. As a Returning User, I want to navigate to the club’s social media.
 
     - A returning user can easily navigate to the club's social media located at the bottom of the page in the footer.
-    ![text](documentation/interactive-element-images/footer.png)
+    ### ![text](documentation/interactive-element-images/footer.png)
 
     - A returning user can easily click on the social media lick they want to view and it will open in a new window.
     
@@ -297,27 +297,27 @@ The Google Maps Street view image displays with incorrect aspect ratio.
     1. As a Frequent user, I want to easily search for a book.
 
     - A Frequent user can easily navigate back to the search for book page using the navigation menu.
-    ![text](documentation/interactive-element-images/nav-menu.png)
+    ### ![text](documentation/interactive-element-images/nav-menu.png)
     ![text](documentation/interactive-element-images/nav-toggle.png)
 
     - A Frequent user can easily search for a book in by using the search for a book search bar.
-    ![text](documentation/interactive-element-images/book-search.png)
+    ### ![text](documentation/interactive-element-images/book-search.png)
 
     2. As a Frequent user, I want to easily search for a movie.
 
      - A Frequent user can easily navigate back to the search for movie page using the navigation menus and entering a book of there choice.
-     ![text](documentation/interactive-element-images/nav-menu.png)
-    ![text](documentation/interactive-element-images/nav-toggle.png)
+     ### ![text](documentation/interactive-element-images/nav-menu.png)
+     ### ![text](documentation/interactive-element-images/nav-toggle.png)
 
     - A Frequent user can easily search for a book in by using the search for a movie search bar and entering a movie of there choice.
-    ![text](documentation/interactive-element-images/movie-search.png)
+    ### ![text](documentation/interactive-element-images/movie-search.png)
 
     3. As a Frequent user, I want to see the current book and movie events.
 
      - A Frequent user can easily navigate back to the book and movie events located in the home page by using the navigation menus or scrolling down to the menu section.
-     ![text](documentation/interactive-element-images/nav-menu.png)
-     ![text](documentation/interactive-element-images/nav-toggle.png)
-     ![text](documentation/interactive-element-images/events.png)
+     ### ![text](documentation/interactive-element-images/nav-menu.png)
+     ### ![text](documentation/interactive-element-images/nav-toggle.png)
+     ### ![text](documentation/interactive-element-images/events.png)
 
 
      
